@@ -1,0 +1,1240 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.3.19)  25 SEP 2017 18:23
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**jco5.tex
+(./jco5.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ny
+norsk, bokmal, loaded.
+
+LaTeX Warning: File `example.eps' already exists on the system.
+               Not generating it from this source.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/fix-cm.sty
+Package: fix-cm 2006/09/13 v1.1m fixes to LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)) (./svjour3.cls
+Document Class: svjour3 2007/05/08 v3.2 
+LaTeX document class for Springer journals
+Class Springer-SVJour3 Info: extra/valid Springer sub-package (-> *.clo) 
+(Springer-SVJour3)           not found in option list of \documentclass
+(Springer-SVJour3)           - autoactivating "global" style.
+(./svglov3.clo
+File: svglov3.clo 2009/12/18 v3.2 style option for standardised journals
+
+SVJour Class option: svglov3.clo for standardised journals
+)
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 147.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 148.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 149.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 150.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 151.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 152.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 153.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 154.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 155.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 156.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 157.
+\logodepth=\dimen102
+\headerboxheight=\dimen103
+\betweenumberspace=\dimen104
+\aftertext=\dimen105
+\headlineindent=\dimen106
+\c@inst=\count79
+\c@auth=\count80
+\instindent=\dimen107
+\authrun=\box26
+\authorrunning=\toks14
+\titrun=\box27
+\titlerunning=\toks15
+\combirun=\box28
+\c@lastpage=\count81
+\rubricwidth=\dimen108
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\spthmsep=\dimen109
+\c@theorem=\count87
+\c@case=\count88
+\c@conjecture=\count89
+\c@corollary=\count90
+\c@definition=\count91
+\c@example=\count92
+\c@exercise=\count93
+\c@lemma=\count94
+\c@note=\count95
+\c@problem=\count96
+\c@property=\count97
+\c@proposition=\count98
+\c@question=\count99
+\c@solution=\count100
+\c@remark=\count101
+\c@figure=\count102
+\c@table=\count103
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\figcapgap=\dimen110
+\tabcapgap=\dimen111
+\figgap=\dimen112
+\bibindent=\dimen113
+\@tempcntc=\count104
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count105
+))
+\Gin@req@height=\dimen114
+\Gin@req@width=\dimen115
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks17
+\ex@=\dimen116
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen117
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count106
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count107
+\leftroot@=\count108
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count109
+\DOTSCASE@=\count110
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box29
+\strutbox@=\box30
+\big@size=\dimen118
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+
+
+Package amsmath Warning: Unable to redefine math accent \vec.
+
+\macc@depth=\count111
+\c@MaxMatrixCols=\count112
+\dotsspace@=\muskip10
+\c@parentequation=\count113
+\dspbrk@lvl=\count114
+\tag@help=\toks18
+\row@=\count115
+\column@=\count116
+\maxfields@=\count117
+\andhelp@=\toks19
+\eqnshift@=\dimen119
+\alignsep@=\dimen120
+\tagshift@=\dimen121
+\tagwidth@=\dimen122
+\totwidth@=\dimen123
+\lineht@=\dimen124
+\@envbody=\toks20
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2012/02/19 v3.2f Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2012/01/12 v1.4b caption3 kernel (AR)
+\captionmargin=\dimen125
+\captionmargin@=\dimen126
+\captionwidth=\dimen127
+\caption@indent=\dimen128
+\caption@parindent=\dimen129
+\caption@hangindent=\dimen130
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = \long macro:#1#2->\captionstyle \ifx \@ca
+ptype \fig@type \vskip \figcapgap \fi \setbox \@tempboxa \hbox {{\floatlegendst
+yle #1\floatcounterend }\capstrut #2}\ifdim \wd \@tempboxa >\hsize {\floatlegen
+dstyle #1\floatcounterend }\capstrut #2\par \else \hbox to\hsize {\leftlegendgl
+ue \unhbox \@tempboxa \hfil }\fi \ifx \@captype \fig@type \else \vskip \tabcapg
+ap \fi .
+\c@ContinuedFloat=\count118
+) (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2012/01/12 v1.1d Sub-captions (AR)
+\c@subfigure=\count119
+\c@subtable=\count120
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/05/13 v6.82q Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen131
+\Hy@linkcounter=\count121
+\Hy@pagecounter=\count122
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/05/13 v6.82q Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count123
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4062.
+Package hyperref Info: Link nesting OFF on input line 4067.
+Package hyperref Info: Hyper index ON on input line 4070.
+Package hyperref Info: Plain pages OFF on input line 4077.
+Package hyperref Info: Backreferencing OFF on input line 4082.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4300.
+\c@Hy@tempcnt=\count124
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4653.
+\Fld@menulength=\count125
+\Field@Width=\dimen132
+\Fld@charsize=\dimen133
+Package hyperref Info: Hyper figures OFF on input line 5773.
+Package hyperref Info: Link nesting OFF on input line 5778.
+Package hyperref Info: Hyper index ON on input line 5781.
+Package hyperref Info: backreferencing OFF on input line 5788.
+Package hyperref Info: Link coloring OFF on input line 5793.
+Package hyperref Info: Link coloring with OCG OFF on input line 5798.
+Package hyperref Info: PDF/A mode OFF on input line 5803.
+LaTeX Info: Redefining \ref on input line 5843.
+LaTeX Info: Redefining \pageref on input line 5847.
+\Hy@abspage=\count126
+\c@Item=\count127
+\c@Hfootnote=\count128
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/05/13 v6.82q Hyperref driver for pdfTeX
+\Fld@listcount=\count129
+\c@bookmark@seq@number=\count130
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip46
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
+)
+\c@prop=\count131
+\c@previousequation=\count132
+\c@lastsubequation=\count133
+\c@savedparentequation=\count134
+
+No file jco5.aux.
+\openout1 = `jco5.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+Unknown journal: specify \journalname{<name of your journal>} in preambel
+
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count135
+\scratchdimen=\dimen134
+\scratchbox=\box31
+\nofMPsegments=\count136
+\nofMParguments=\count137
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count138
+\MPscratchDim=\dimen135
+\MPnumerator=\count139
+\makeMPintoPDFobject=\count140
+\everyMPtoPDFconversion=\toks23
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\AtBeginShipoutBox=\box32
+Package hyperref Info: Link coloring OFF on input line 145.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count141
+)
+LaTeX Info: Redefining \ref on input line 145.
+LaTeX Info: Redefining \pageref on input line 145.
+LaTeX Info: Redefining \nameref on input line 145.
+\@outlinefile=\write3
+\openout3 = `jco5.out'.
+
+
+SVJour3 warning: Missing \journalname
+LaTeX Font Info:    Try loading font information for U+msa on input line 177.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 177.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+
+SVJour3 Warning: Title too long for running head.
+Please supply a shorter form with \titlerunning prior to \maketitle
+
+Overfull \hbox (2.39047pt too wide) in paragraph at lines 179--196
+[]\OT1/cmr/m/n/10 In this pa-per we fo-cus on the Shared Mul-ti-cast Tree prob-
+lem (SMT),
+ []
+
+
+Underfull \vbox (badness 6445) has occurred while \output is active []
+
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+
+LaTeX Warning: Citation `Wieseltier00onthe' on page 2 undefined on input line 2
+07.
+
+[2]
+
+LaTeX Warning: Citation `Haugland12Dual' on page 3 undefined on input line 219.
+
+
+
+LaTeX Warning: Reference `sec:SBT' on page 3 undefined on input line 223.
+
+
+LaTeX Warning: Reference `sec:ILP' on page 3 undefined on input line 223.
+
+
+LaTeX Warning: Reference `sec:comp' on page 3 undefined on input line 223.
+
+
+LaTeX Warning: Reference `sec:cg' on page 3 undefined on input line 223.
+
+
+LaTeX Warning: Reference `sec:exp' on page 3 undefined on input line 223.
+
+
+LaTeX Warning: Reference `sec:conclusion' on page 3 undefined on input line 223
+.
+
+
+LaTeX Warning: Reference `fig:objexp' on page 3 undefined on input line 227.
+
+<objexp.pdf, id=19, 468.21663pt x 274.87952pt>
+File: objexp.pdf Graphic file (type pdf)
+ <use objexp.pdf>
+Package pdftex.def Info: objexp.pdf used on input line 230.
+(pdftex.def)             Requested size: 196.96399pt x 115.63243pt.
+ [3]
+
+LaTeX Warning: Citation `Papadimitriou06SBT' on page 4 undefined on input line 
+242.
+
+
+LaTeX Warning: Reference `def:problem' on page 4 undefined on input line 242.
+
+[4 <./objexp.pdf>]
+
+LaTeX Warning: Citation `Haugland12Dual' on page 5 undefined on input line 249.
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--274
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--274
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--274
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--274
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
+
+LaTeX Warning: Citation `ivanova16isco' on page 6 undefined on input line 288.
+
+
+LaTeX Warning: Reference `con:dd:arrowFromNonDestA' on page 6 undefined on inpu
+t line 288.
+
+
+LaTeX Warning: Reference `con:dd:arrowFromDest' on page 6 undefined on input li
+ne 291.
+
+
+LaTeX Warning: Reference `con:dd:startInSource' on page 6 undefined on input li
+ne 291.
+
+
+LaTeX Warning: Reference `con:dd:arrowFromDest' on page 6 undefined on input li
+ne 291.
+
+
+LaTeX Warning: Reference `con:dd:arrowFromNonDestB' on page 6 undefined on inpu
+t line 291.
+
+
+LaTeX Warning: Reference `con:dd:arrowFromNonDestA' on page 6 undefined on inpu
+t line 293.
+
+
+LaTeX Warning: Reference `con:dd:extraCon' on page 6 undefined on input line 29
+5.
+
+
+LaTeX Warning: Reference `con:dd:oneDir' on page 6 undefined on input line 297.
+
+
+
+LaTeX Warning: Reference `con:dd:startInSource' on page 6 undefined on input li
+ne 297.
+
+
+LaTeX Warning: Reference `con:dd:yvar' on page 6 undefined on input line 299.
+
+[6]
+
+LaTeX Warning: Reference `con:vi:Y1' on page 7 undefined on input line 309.
+
+
+LaTeX Warning: Reference `con:vi:sumYImpSumX' on page 7 undefined on input line
+ 309.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--328
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--328
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--328
+
+ []
+
+
+LaTeX Warning: Reference `con:dd:arrowFromDest' on page 7 undefined on input li
+ne 337.
+
+
+LaTeX Warning: Reference `con:dd:yvar' on page 7 undefined on input line 337.
+
+
+LaTeX Warning: Reference `con:vi:Y1' on page 7 undefined on input line 337.
+
+
+LaTeX Warning: Reference `con:vi:sumYImpSumX' on page 7 undefined on input line
+ 337.
+
+
+LaTeX Warning: Reference `con:dd:arrowFromDest' on page 7 undefined on input li
+ne 337.
+
+
+LaTeX Warning: Reference `con:dd:yvar' on page 7 undefined on input line 337.
+
+
+LaTeX Warning: Reference `con:vi:Y1' on page 7 undefined on input line 337.
+
+
+LaTeX Warning: Reference `con:vi:sumYImpSumX' on page 7 undefined on input line
+ 337.
+
+[7]
+
+LaTeX Warning: Reference `con:mf:flowNormal' on page 8 undefined on input line 
+339.
+
+
+LaTeX Warning: Reference `con:mf:flowDest' on page 8 undefined on input line 33
+9.
+
+
+LaTeX Warning: Reference `con:mf:fcap' on page 8 undefined on input line 339.
+
+
+LaTeX Warning: Reference `con:mf:fsym' on page 8 undefined on input line 339.
+
+
+LaTeX Warning: Reference `sec:smtx2:form' on page 8 undefined on input line 343
+.
+
+
+LaTeX Warning: Reference `con:vi:f2dest' on page 8 undefined on input line 353.
+
+
+
+LaTeX Warning: Reference `con:vi:xImpSumF' on page 8 undefined on input line 35
+3.
+
+
+LaTeX Warning: Reference `con:vi:sumFImpSumY' on page 8 undefined on input line
+ 353.
+
+
+LaTeX Warning: Citation `Polzin' on page 8 undefined on input line 356.
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 358--380
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 358--380
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 358--380
+
+ []
+
+
+LaTeX Warning: Citation `Polzin' on page 9 undefined on input line 381.
+
+
+LaTeX Warning: Reference `con:dd:yvar' on page 9 undefined on input line 381.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9]
+
+LaTeX Warning: Reference `con:pf1:xfrel' on page 10 undefined on input line 456
+.
+
+
+LaTeX Warning: Reference `con:pf1:flow' on page 10 undefined on input line 456.
+
+
+
+LaTeX Warning: Reference `con:pf1:dim' on page 10 undefined on input line 456.
+
+
+LaTeX Warning: Reference `con:pf1:yvar' on page 10 undefined on input line 456.
+
+
+
+LaTeX Warning: Reference `con:dd:yvar' on page 10 undefined on input line 456.
+
+
+LaTeX Warning: Reference `eq:tr:xijsB' on page 10 undefined on input line 456.
+
+<conBNec.pdf, id=106, 419.68298pt x 643.80527pt>
+File: conBNec.pdf Graphic file (type pdf)
+ <use conBNec.pdf>
+Package pdftex.def Info: conBNec.pdf used on input line 461.
+(pdftex.def)             Requested size: 135.19794pt x 207.3972pt.
+
+<conBNec2.pdf, id=107, 419.68298pt x 643.80527pt>
+File: conBNec2.pdf Graphic file (type pdf)
+ <use conBNec2.pdf>
+Package pdftex.def Info: conBNec2.pdf used on input line 468.
+(pdftex.def)             Requested size: 135.19794pt x 207.3972pt.
+
+
+LaTeX Warning: Reference `con:pf1:B' on page 10 undefined on input line 469.
+
+
+LaTeX Warning: Reference `con:pf1:B' on page 10 undefined on input line 469.
+
+
+LaTeX Warning: Reference `con:pf1:B' on page 10 undefined on input line 472.
+
+
+LaTeX Warning: Reference `con:pf1:B' on page 10 undefined on input line 472.
+
+
+LaTeX Warning: Reference `con:pf1:B' on page 10 undefined on input line 474.
+
+
+LaTeX Warning: Reference `fig:BProof' on page 10 undefined on input line 474.
+
+
+LaTeX Warning: Reference `fig:BorigSMT' on page 10 undefined on input line 474.
+
+
+
+LaTeX Warning: Reference `fig:Bpf2' on page 10 undefined on input line 474.
+
+
+LaTeX Warning: Reference `con:pf1:B' on page 10 undefined on input line 474.
+
+
+LaTeX Warning: Reference `def:problem' on page 10 undefined on input line 474.
+
+
+LaTeX Warning: Reference `con:dd:arrowFromDest' on page 10 undefined on input l
+ine 474.
+
+
+LaTeX Warning: Reference `con:dd:arrowFromNonDestB' on page 10 undefined on inp
+ut line 474.
+
+
+LaTeX Warning: Reference `con:dd:oneDir' on page 10 undefined on input line 474
+.
+
+
+LaTeX Warning: Citation `ivanova16isco' on page 10 undefined on input line 474.
+
+
+
+LaTeX Warning: Reference `fig:Bpf2' on page 10 undefined on input line 474.
+
+
+LaTeX Warning: Reference `fig:BorigSMT' on page 10 undefined on input line 474.
+
+
+
+LaTeX Warning: Reference `con:pf1:noflowFromT' on page 10 undefined on input li
+ne 474.
+
+
+LaTeX Warning: Reference `con:pf1:xi0=0' on page 10 undefined on input line 474
+.
+
+
+LaTeX Warning: Reference `con:pf1:xi0=0' on page 10 undefined on input line 474
+.
+
+[10]
+
+LaTeX Warning: Reference `con:pf1:flow' on page 11 undefined on input line 478.
+
+
+
+LaTeX Warning: Reference `con:pf1:flowX' on page 11 undefined on input line 478
+.
+
+
+LaTeX Warning: Reference `con:pf1:B' on page 11 undefined on input line 478.
+
+
+LaTeX Warning: Reference `con:pf1:dim' on page 11 undefined on input line 478.
+
+
+LaTeX Warning: Reference `con:pf1:flow' on page 11 undefined on input line 482.
+
+
+
+LaTeX Warning: Reference `con:pf1:xfrel' on page 11 undefined on input line 482
+.
+
+
+LaTeX Warning: Reference `con:pf1:B' on page 11 undefined on input line 482.
+
+
+LaTeX Warning: Reference `con:pf1:xi0=0' on page 11 undefined on input line 482
+.
+
+
+LaTeX Warning: Reference `con:pf1:flowX' on page 11 undefined on input line 482
+.
+
+
+LaTeX Warning: Reference `con:vi:Y1' on page 11 undefined on input line 486.
+
+
+LaTeX Warning: Reference `con:vi:sumYImpSumX' on page 11 undefined on input lin
+e 486.
+
+
+LaTeX Warning: Reference `eq:tr:xijsB' on page 11 undefined on input line 486.
+
+[11 <./conBNec.pdf> <./conBNec2.pdf
+
+pdfTeX warning: pdflatex (file ./conBNec2.pdf): PDF inclusion: multiple pdfs wi
+th page group included in a single page
+>]
+
+LaTeX Warning: Citation `Polzin' on page 12 undefined on input line 495.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 495--505
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 495--505
+
+ []
+
+
+LaTeX Warning: Reference `con:pf1:xfrel' on page 12 undefined on input line 516
+.
+
+
+LaTeX Warning: Reference `con:pf1:xi0=0' on page 12 undefined on input line 516
+.
+
+
+LaTeX Warning: Reference `con:vi:Y1' on page 12 undefined on input line 516.
+
+
+LaTeX Warning: Reference `con:vi:sumYImpSumXTrans' on page 12 undefined on inpu
+t line 516.
+
+
+LaTeX Warning: Reference `con:pf1:xfrel' on page 12 undefined on input line 516
+.
+
+
+LaTeX Warning: Reference `con:pf1:xi0=0' on page 12 undefined on input line 516
+.
+
+
+LaTeX Warning: Reference `con:vi:Y1' on page 12 undefined on input line 516.
+
+
+LaTeX Warning: Reference `con:vi:sumYImpSumXTrans' on page 12 undefined on inpu
+t line 516.
+
+
+LaTeX Warning: Reference `con:pf2:flowHook' on page 12 undefined on input line 
+519.
+
+
+LaTeX Warning: Reference `con:pf2:stronger' on page 12 undefined on input line 
+519.
+
+
+LaTeX Warning: Reference `con:pf1:xfrel' on page 12 undefined on input line 519
+.
+
+
+LaTeX Warning: Reference `eq:fhooksym' on page 12 undefined on input line 524.
+
+[12]
+
+LaTeX Warning: Reference `eq:tr:fstij' on page 13 undefined on input line 528.
+
+
+LaTeX Warning: Reference `eq:tr:fijt2' on page 13 undefined on input line 528.
+
+
+LaTeX Warning: Reference `con:vi:f2dest' on page 13 undefined on input line 535
+.
+
+
+LaTeX Warning: Reference `con:vi:sumFImpSumY' on page 13 undefined on input lin
+e 535.
+
+
+LaTeX Warning: Reference `eq:tr:xijsB' on page 13 undefined on input line 539.
+
+
+LaTeX Warning: Reference `eq:tr:fstij' on page 13 undefined on input line 554.
+
+
+LaTeX Warning: Reference `eq:tr:xijj' on page 13 undefined on input line 571.
+
+
+LaTeX Warning: Reference `eq:tr:zij' on page 13 undefined on input line 571.
+
+[13]
+
+LaTeX Warning: Reference `sec:ILP' on page 14 undefined on input line 582.
+
+
+LaTeX Warning: Reference `eq:tr:fstij' on page 14 undefined on input line 583.
+
+
+LaTeX Warning: Reference `eq:tr:zij' on page 14 undefined on input line 583.
+
+
+LaTeX Warning: Reference `con:mfinpf2:fcap' on page 14 undefined on input line 
+611.
+
+
+LaTeX Warning: Reference `con:mfinpf2:fbound' on page 14 undefined on input lin
+e 611.
+
+
+LaTeX Warning: Reference `con:mfinpf2:fbound' on page 14 undefined on input lin
+e 611.
+
+
+LaTeX Warning: Reference `con:mfinpf2:fcap' on page 14 undefined on input line 
+611.
+
+
+LaTeX Warning: Reference `con:mfinpf2:xbound' on page 14 undefined on input lin
+e 611.
+
+
+LaTeX Warning: Reference `con:mfinpf2:fcap' on page 14 undefined on input line 
+611.
+
+
+LaTeX Warning: Reference `con:mfinpf2:fbound' on page 14 undefined on input lin
+e 611.
+
+[14]
+
+LaTeX Warning: Reference `con:pf1:fitt=xit' on page 15 undefined on input line 
+620.
+
+
+LaTeX Warning: Reference `con:pf1:flow' on page 15 undefined on input line 620.
+
+
+
+LaTeX Warning: Reference `con:pf1:noflowFromT' on page 15 undefined on input li
+ne 620.
+
+
+Overfull \hbox (21.87712pt too wide) in paragraph at lines 629--630
+[]\OT1/cmr/m/n/10 We an-a-lyze whether all so-lu-tions sat-is-fy-ing LP(SMT-F1-
+VI) sat-isfy LP(SMT-
+ []
+
+
+LaTeX Warning: Reference `con:mfinpf2:maxsize' on page 15 undefined on input li
+ne 632.
+
+
+LaTeX Warning: Reference `eq:sumToD' on page 15 undefined on input line 632.
+
+
+LaTeX Warning: Reference `con:pf1:B' on page 15 undefined on input line 632.
+
+
+LaTeX Warning: Reference `con:mfinpf2:arrowFromDest' on page 15 undefined on in
+put line 633.
+
+
+LaTeX Warning: Reference `con:pf1:flow' on page 15 undefined on input line 633.
+
+
+
+LaTeX Warning: Reference `con:mfinpf2:arrowFromDest' on page 15 undefined on in
+put line 634.
+
+
+LaTeX Warning: Reference `eq:sumToD' on page 15 undefined on input line 634.
+
+
+LaTeX Warning: Reference `con:pf1:xi0=0' on page 15 undefined on input line 635
+.
+
+
+LaTeX Warning: Reference `con:pf1:xfrel' on page 15 undefined on input line 635
+.
+
+
+LaTeX Warning: Reference `con:pf1:flow' on page 15 undefined on input line 637.
+
+
+
+LaTeX Warning: Reference `con:mfinpf2:arrowFromNonDestB' on page 15 undefined o
+n input line 638.
+
+
+LaTeX Warning: Reference `con:mfinpf2:arrowFromDest' on page 15 undefined on in
+put line 638.
+
+
+LaTeX Warning: Reference `con:pf1:B' on page 15 undefined on input line 638.
+
+
+LaTeX Warning: Reference `eq:sumToD' on page 15 undefined on input line 638.
+
+
+LaTeX Warning: Reference `con:mfinpf2:arrowFromNonDestA' on page 15 undefined o
+n input line 639.
+
+
+LaTeX Warning: Reference `con:pf1:flow' on page 15 undefined on input line 644.
+
+
+
+LaTeX Warning: Reference `con:pf1:xfrel' on page 15 undefined on input line 646
+.
+
+[15]
+
+LaTeX Warning: Reference `con:pf1:flow' on page 16 undefined on input line 648.
+
+
+
+LaTeX Warning: Reference `con:mfinpf2:extraCon' on page 16 undefined on input l
+ine 649.
+
+
+LaTeX Warning: Reference `con:pf1:flowX' on page 16 undefined on input line 649
+.
+
+
+LaTeX Warning: Reference `con:pf1:flow' on page 16 undefined on input line 649.
+
+
+
+LaTeX Warning: Reference `con:mfinpf2:startInSource' on page 16 undefined on in
+put line 650.
+
+
+LaTeX Warning: Reference `con:pf1:noflowFromT' on page 16 undefined on input li
+ne 650.
+
+
+LaTeX Warning: Reference `con:pf1:fitt=xit' on page 16 undefined on input line 
+650.
+
+
+LaTeX Warning: Reference `con:mfinpf2:yvar' on page 16 undefined on input line 
+651.
+
+
+LaTeX Warning: Reference `con:pf1:yvar' on page 16 undefined on input line 651.
+
+
+
+LaTeX Warning: Reference `con:mfinpf2:flowNormal' on page 16 undefined on input
+ line 652.
+
+
+LaTeX Warning: Reference `con:mfinpf2:flowDest' on page 16 undefined on input l
+ine 652.
+
+
+LaTeX Warning: Reference `con:mfinpf2:flowNormal' on page 16 undefined on input
+ line 652.
+
+
+LaTeX Warning: Reference `con:pf1:flow' on page 16 undefined on input line 652.
+
+
+
+LaTeX Warning: Reference `con:mfinpf2:zbound' on page 16 undefined on input lin
+e 654.
+
+
+LaTeX Warning: Reference `con:pf1:xfrel' on page 16 undefined on input line 654
+.
+
+
+LaTeX Warning: Reference `eq:sumToD' on page 16 undefined on input line 656.
+
+
+LaTeX Warning: Reference `con:pf1:B' on page 16 undefined on input line 656.
+
+
+LaTeX Warning: Reference `con:pf1:xfrel' on page 16 undefined on input line 656
+.
+
+
+LaTeX Warning: Reference `con:pf2:stronger' on page 16 undefined on input line 
+656.
+
+
+LaTeX Warning: Reference `con:mfinpf2:xbound' on page 16 undefined on input lin
+e 657.
+
+
+LaTeX Warning: Reference `con:pf1:xfrel' on page 16 undefined on input line 657
+.
+
+
+LaTeX Warning: Reference `con:mfinpf2:arrowFromDest' on page 16 undefined on in
+put line 657.
+
+
+LaTeX Warning: Reference `con:mfinpf2:arrowFromNonDestB' on page 16 undefined o
+n input line 657.
+
+
+LaTeX Warning: Reference `con:mfinpf2:arrowFromDest' on page 16 undefined on in
+put line 657.
+
+
+LaTeX Warning: Reference `con:mfinpf2:arrowFromNonDestB' on page 16 undefined o
+n input line 657.
+
+
+LaTeX Warning: Reference `con:pf1:xfrel' on page 16 undefined on input line 657
+.
+
+
+LaTeX Warning: Reference `prop:f1strx2' on page 16 undefined on input line 661.
+
+
+
+LaTeX Warning: Reference `con:vi:f2dest' on page 16 undefined on input line 661
+.
+
+
+LaTeX Warning: Reference `con:vi:sumFImpSumY' on page 16 undefined on input lin
+e 661.
+
+[16]
+
+LaTeX Warning: Reference `con:mf:fcap' on page 17 undefined on input line 690.
+
+
+LaTeX Warning: Reference `alg:congen' on page 17 undefined on input line 690.
+
+
+LaTeX Warning: Reference `fig:id-basi' on page 17 undefined on input line 707.
+
+[17] <../graphs/id-basic-cost.pdf, id=244, 361.35pt x 216.81pt>
+File: ../graphs/id-basic-cost.pdf Graphic file (type pdf)
+
+<use ../graphs/id-basic-cost.pdf>
+Package pdftex.def Info: ../graphs/id-basic-cost.pdf used on input line 714.
+(pdftex.def)             Requested size: 144.53743pt x 86.72377pt.
+
+<../graphs/id-basic-time.pdf, id=245, 361.35pt x 216.81pt>
+File: ../graphs/id-basic-time.pdf Graphic file (type pdf)
+
+<use ../graphs/id-basic-time.pdf>
+Package pdftex.def Info: ../graphs/id-basic-time.pdf used on input line 720.
+(pdftex.def)             Requested size: 144.53743pt x 86.72377pt.
+
+<../graphs/in-basic-cost.pdf, id=246, 361.35pt x 216.81pt>
+File: ../graphs/in-basic-cost.pdf Graphic file (type pdf)
+
+<use ../graphs/in-basic-cost.pdf>
+Package pdftex.def Info: ../graphs/in-basic-cost.pdf used on input line 733.
+(pdftex.def)             Requested size: 144.53743pt x 86.72377pt.
+
+<../graphs/in-basic-time.pdf, id=247, 361.35pt x 216.81pt>
+File: ../graphs/in-basic-time.pdf Graphic file (type pdf)
+
+<use ../graphs/in-basic-time.pdf>
+Package pdftex.def Info: ../graphs/in-basic-time.pdf used on input line 739.
+(pdftex.def)             Requested size: 144.53743pt x 86.72377pt.
+ [18 <../graphs/id-basic-cost.pdf> <../graphs/id-basic-time.pdf
+
+pdfTeX warning: pdflatex (file ../graphs/id-basic-time.pdf): PDF inclusion: mul
+tiple pdfs with page group included in a single page
+> <../graphs/in-basic-cost.pdf
+
+pdfTeX warning: pdflatex (file ../graphs/in-basic-cost.pdf): PDF inclusion: mul
+tiple pdfs with page group included in a single page
+> <../graphs/in-basic-time.pdf
+
+pdfTeX warning: pdflatex (file ../graphs/in-basic-time.pdf): PDF inclusion: mul
+tiple pdfs with page group included in a single page
+>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 850.
+ [19]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 850.
+ (./jco5.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 850.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 850.
+
+
+Package rerunfilecheck Warning: File `jco5.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `jco5.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  1886E6E3C43D21BB61C5CC2BA9D79653;440.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 850.
+ ) 
+Here is how much of TeX's memory you used:
+ 7819 strings out of 494809
+ 117708 string characters out of 3178381
+ 225030 words of memory out of 3000000
+ 10800 multiletter control sequences out of 15000+200000
+ 13376 words of font info for 50 fonts, out of 3000000 for 9000
+ 230 hyphenation exceptions out of 8191
+ 36i,15n,38p,1678b,508s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cmextra/cmex8.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+mi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
+i10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm
+10.pfb>
+Output written on jco5.pdf (19 pages, 395596 bytes).
+PDF statistics:
+ 405 PDF objects out of 1000 (max. 8388607)
+ 331 compressed objects within 4 object streams
+ 131 named destinations out of 1000 (max. 500000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+

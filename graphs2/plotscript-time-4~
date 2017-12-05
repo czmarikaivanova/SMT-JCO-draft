@@ -1,0 +1,15 @@
+set terminal pdfcairo
+set output "id4-time.pdf"
+set ylabel "Objective value"
+set style fill solid border -1
+set style data histograms
+set key top left
+set yrange [0:1500]
+set xtics font "Times-Roman, 7" 
+set ytics font "Times-Roman, 7" 
+
+plot "id-basic-time4.data" using 2:xtic(1) title "LP(SMT-X2)" lt rgb "#FFFFFF",\
+     "" using 3 title "LP(SMT-F2)" lt rgb "#B8B8B8",\
+     "" using 4 title "LP(SMT-X2-VI)" lt rgb "#575757",\
+     "" using 5 title "LP(SMT-F2-VI)" lt rgb "#363636",\
+     "" using 6 title "SMT-F2-VI" lt rgb "#000000"

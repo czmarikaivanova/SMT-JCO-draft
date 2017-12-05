@@ -1,0 +1,14 @@
+set terminal pdfcairo
+set output "id-basic-cost.pdf"
+set ylabel "Total cost"
+set style fill solid border -1
+set style data histograms
+set key top left
+set yrange [100:36000]
+set xtics font "Times-Roman, 7" 
+set ytics font "Times-Roman, 7" 
+
+plot "id-basic-cost.data" using 2:xtic(1) title "SMTO-LP" lt rgb "#FFFFFF",\
+     "" using 3 title "SMTMF-LP" lt rgb "#B5B5B5",\
+     "" using 4 title "SMTPF2-LP" lt rgb "#575757",\
+     "" using 5 title "SMTO" lt rgb "#121212"

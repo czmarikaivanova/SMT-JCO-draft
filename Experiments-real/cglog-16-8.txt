@@ -1,0 +1,2510 @@
+ID: 48961 STRATEGY: AddAll TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	14849.57	0.99	7	21	21	18616	 17400
+2	17535.29	19.68	35	21	0	29410	 17400
+TOTAL OBJECTIVE: 17535.29
+TOTAL TIME: 21.299376964569092
+---------------------------
+ID: 48961 STRATEGY:  AddFirstK, k = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	14849.57	0.99	3	6	6	18616	 17400
+2	16687.56	5.19	8	6	6	21700	 17400
+3	17100.11	7.75	14	5	5	24784	 17400
+4	17416.57	11.08	22	4	4	27354	 17400
+5	17515.47	10.76	26	1	1	29410	 17400
+6	17535.29	3.83	27	1	1	29924	 17400
+7	17535.29	0.3	28	0	0	30438	 17400
+TOTAL OBJECTIVE: 17535.29
+TOTAL TIME: 41.20266795158386
+---------------------------
+ID: 48961 STRATEGY:  AddFirstK, k = 1 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	14849.57	0.99	0	2	2	18616	 17400
+2	15118.69	0.92	3	2	2	19644	 17400
+3	16069.86	1.95	5	2	2	20672	 17400
+4	16732.58	2.02	7	2	2	21700	 17400
+5	17177.87	2.98	10	2	2	22728	 17400
+6	17514.38	3.68	13	2	2	23756	 17400
+7	17535.29	1.33	28	0	0	24784	 17400
+TOTAL OBJECTIVE: 17535.29
+TOTAL TIME: 14.507071018218994
+---------------------------
+ID: 48961 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	14849.57	0.99	7	21	4	18616	 17400
+2	16639.48	2.84	14	14	3	20672	 17400
+3	17113.57	2.59	20	8	2	22214	 17400
+4	17334.69	3.37	24	4	4	23242	 17400
+5	17535.29	5.59	28	0	0	25298	 17400
+TOTAL OBJECTIVE: 17535.29
+TOTAL TIME: 16.48889183998108
+---------------------------
+ID: 48961 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.8
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	14849.57	1.0	9	19	4	18616	 17400
+2	16639.48	2.75	16	12	3	20672	 17400
+3	17113.57	2.7	22	6	2	22214	 17400
+4	17467.4	4.38	26	2	2	23242	 17400
+5	17512.69	1.93	28	0	0	24270	 17400
+TOTAL OBJECTIVE: 17512.69
+TOTAL TIME: 13.813781976699829
+---------------------------
+ID: 48961 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.99999
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	14849.57	1.0	4	24	4	18616	 17400
+2	16639.48	2.76	8	20	4	20672	 17400
+3	17113.9	2.79	17	11	3	22728	 17400
+4	17415.91	4.84	22	6	3	24270	 17400
+5	17507.58	4.34	24	4	4	25812	 17400
+6	17535.29	3.32	28	0	0	27868	 17400
+TOTAL OBJECTIVE: 17535.29
+TOTAL TIME: 20.33398699760437
+---------------------------
+ID: 62620 STRATEGY: AddAll TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	26643.0	0.84	16	12	12	18616	 17400
+2	27600.0	3.3	44	12	0	24784	 17400
+TOTAL OBJECTIVE: 27600.0
+TOTAL TIME: 4.573450803756714
+---------------------------
+ID: 62620 STRATEGY:  AddFirstK, k = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	26643.0	0.87	7	6	6	18616	 17400
+2	27600.0	1.64	28	0	0	21700	 17400
+TOTAL OBJECTIVE: 27600.0
+TOTAL TIME: 3.3354501724243164
+---------------------------
+ID: 62620 STRATEGY:  AddFirstK, k = 1 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	26643.0	0.83	1	2	2	18616	 17400
+2	27289.81	0.91	3	2	2	19644	 17400
+3	27375.6	1.16	5	2	2	20672	 17400
+4	27430.04	1.1	10	2	2	21700	 17400
+5	27521.68	1.38	16	2	2	22728	 17400
+6	27600.0	0.98	28	0	0	23756	 17400
+TOTAL OBJECTIVE: 27600.0
+TOTAL TIME: 6.927863121032715
+---------------------------
+ID: 62620 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	26643.0	0.83	16	12	2	18616	 17400
+2	27600.0	1.03	28	0	0	19644	 17400
+TOTAL OBJECTIVE: 27600.0
+TOTAL TIME: 2.270688056945801
+---------------------------
+ID: 62620 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.8
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	26643.0	0.83	16	12	2	18616	 17400
+2	27600.0	1.02	28	0	0	19644	 17400
+TOTAL OBJECTIVE: 27600.0
+TOTAL TIME: 2.2430059909820557
+---------------------------
+ID: 62620 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.99999
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	26643.0	0.83	16	12	2	18616	 17400
+2	27600.0	1.01	28	0	0	19644	 17400
+TOTAL OBJECTIVE: 27600.0
+TOTAL TIME: 2.23471999168396
+---------------------------
+ID: 15592 STRATEGY: AddAll TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	17218.44	1.08	10	18	18	18616	 17400
+2	18303.21	14.74	38	18	0	27868	 17400
+TOTAL OBJECTIVE: 18303.21
+TOTAL TIME: 16.26653480529785
+---------------------------
+ID: 15592 STRATEGY:  AddFirstK, k = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	17218.44	1.06	6	6	6	18616	 17400
+2	18002.27	2.64	5	6	6	21700	 17400
+3	18293.99	5.08	26	2	2	24784	 17400
+4	18303.91	1.84	28	0	0	25812	 17400
+TOTAL OBJECTIVE: 18303.91
+TOTAL TIME: 11.294870853424072
+---------------------------
+ID: 15592 STRATEGY:  AddFirstK, k = 1 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	17218.44	1.07	3	2	2	18616	 17400
+2	17685.84	1.16	2	2	2	19644	 17400
+3	17752.46	0.84	4	2	2	20672	 17400
+4	17780.08	1.06	7	2	2	21700	 17400
+5	18182.96	3.55	9	2	2	22728	 17400
+6	18193.45	1.32	15	2	2	23756	 17400
+7	18213.13	2.96	14	2	2	24784	 17400
+8	18258.73	4.5	22	2	2	25812	 17400
+9	18285.37	4.82	25	2	2	26840	 17400
+10	18304.09	6.32	28	0	0	27868	 17400
+TOTAL OBJECTIVE: 18304.09
+TOTAL TIME: 29.06184196472168
+---------------------------
+ID: 15592 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	17218.44	1.06	10	18	3	18616	 17400
+2	18086.15	1.79	11	17	3	20158	 17400
+3	18206.81	1.39	16	12	3	21700	 17400
+4	18289.97	2.03	28	0	0	23242	 17400
+TOTAL OBJECTIVE: 18289.97
+TOTAL TIME: 7.123675107955933
+---------------------------
+ID: 15592 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.8
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	17218.44	1.06	12	16	3	18616	 17400
+2	18120.9	1.71	21	7	3	20158	 17400
+3	18256.05	1.52	27	1	1	21700	 17400
+4	18276.03	0.79	28	0	0	22214	 17400
+TOTAL OBJECTIVE: 18276.03
+TOTAL TIME: 5.9078638553619385
+---------------------------
+ID: 15592 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.99999
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	17218.44	1.06	6	22	3	18616	 17400
+2	18100.21	1.77	6	22	4	20158	 17400
+3	18200.63	1.88	12	16	3	22214	 17400
+4	18298.01	2.77	15	13	4	23756	 17400
+5	18304.19	2.44	20	8	3	25812	 17400
+6	18304.66	0.82	28	0	0	27354	 17400
+TOTAL OBJECTIVE: 18304.66
+TOTAL TIME: 12.01311707496643
+---------------------------
+ID: 27963 STRATEGY: AddAll TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	18251.25	0.9	9	19	19	18616	 17400
+2	20409.15	10.13	37	19	0	28382	 17400
+TOTAL OBJECTIVE: 20409.15
+TOTAL TIME: 11.54292893409729
+---------------------------
+ID: 27963 STRATEGY:  AddFirstK, k = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	18251.25	0.9	6	6	6	18616	 17400
+2	20327.86	3.05	21	6	6	21700	 17400
+3	20409.15	1.63	28	0	0	24784	 17400
+TOTAL OBJECTIVE: 20409.15
+TOTAL TIME: 6.142145156860352
+---------------------------
+ID: 27963 STRATEGY:  AddFirstK, k = 1 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	18251.25	0.9	3	2	2	18616	 17400
+2	19893.1	1.55	1	2	2	19644	 17400
+3	20020.63	0.95	3	2	2	20672	 17400
+4	20078.04	0.83	6	2	2	21700	 17400
+5	20175.43	1.23	9	2	2	22728	 17400
+6	20263.52	1.2	11	2	2	23756	 17400
+7	20377.52	2.31	16	2	2	24784	 17400
+8	20414.83	2.48	24	1	1	25812	 17400
+9	20417.88	0.68	28	0	0	26326	 17400
+TOTAL OBJECTIVE: 20417.88
+TOTAL TIME: 13.048805952072144
+---------------------------
+ID: 27963 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	18251.25	0.9	9	19	3	18616	 17400
+2	20248.69	1.6	19	9	2	20158	 17400
+3	20382.22	0.93	22	6	2	21186	 17400
+4	20400.19	0.57	27	1	1	22214	 17400
+5	20417.88	0.64	28	0	0	22728	 17400
+TOTAL OBJECTIVE: 20417.88
+TOTAL TIME: 5.659186840057373
+---------------------------
+ID: 27963 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.8
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	18251.25	0.91	9	19	3	18616	 17400
+2	20248.69	1.59	19	9	2	20158	 17400
+3	20382.22	0.93	28	0	0	21186	 17400
+TOTAL OBJECTIVE: 20382.22
+TOTAL TIME: 4.048171043395996
+---------------------------
+ID: 27963 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.99999
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	18251.25	0.89	4	24	4	18616	 17400
+2	20248.69	2.09	17	11	2	20672	 17400
+3	20344.5	0.91	18	10	2	21700	 17400
+4	20394.42	0.71	23	5	5	22728	 17400
+5	20417.88	1.48	28	0	0	25298	 17400
+TOTAL OBJECTIVE: 20417.88
+TOTAL TIME: 7.132710933685303
+---------------------------
+ID: 7579 STRATEGY: AddAll TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	26788.3	0.86	9	19	19	18616	 17400
+2	27246.67	5.31	37	19	0	28382	 17400
+TOTAL OBJECTIVE: 27246.67
+TOTAL TIME: 6.665959119796753
+---------------------------
+ID: 7579 STRATEGY:  AddFirstK, k = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	26788.3	0.85	2	6	6	18616	 17400
+2	27246.67	1.48	28	0	0	21700	 17400
+TOTAL OBJECTIVE: 27246.67
+TOTAL TIME: 2.6045048236846924
+---------------------------
+ID: 7579 STRATEGY:  AddFirstK, k = 1 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	26788.3	0.86	1	2	2	18616	 17400
+2	27246.67	0.87	28	0	0	19644	 17400
+TOTAL OBJECTIVE: 27246.67
+TOTAL TIME: 1.9955558776855469
+---------------------------
+ID: 7579 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	26788.3	0.87	9	19	4	18616	 17400
+2	27246.67	1.14	28	0	0	20672	 17400
+TOTAL OBJECTIVE: 27246.67
+TOTAL TIME: 2.41536808013916
+---------------------------
+ID: 7579 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.8
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	26788.3	0.86	9	19	4	18616	 17400
+2	27246.67	1.14	28	0	0	20672	 17400
+TOTAL OBJECTIVE: 27246.67
+TOTAL TIME: 2.8983280658721924
+---------------------------
+ID: 7579 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.99999
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	26788.3	0.87	9	19	4	18616	 17400
+2	27246.67	1.15	28	0	0	20672	 17400
+TOTAL OBJECTIVE: 27246.67
+TOTAL TIME: 2.4295339584350586
+---------------------------
+ID: 76752 STRATEGY: AddAll TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	14292.0	0.79	8	20	20	18616	 17400
+2	17042.63	16.21	36	20	0	28896	 17400
+TOTAL OBJECTIVE: 17042.63
+TOTAL TIME: 17.46375298500061
+---------------------------
+ID: 76752 STRATEGY:  AddFirstK, k = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	14292.0	0.78	0	6	6	18616	 17400
+2	16995.2	4.66	23	5	5	21700	 17400
+3	17042.63	1.68	28	0	0	24270	 17400
+TOTAL OBJECTIVE: 17042.63
+TOTAL TIME: 7.659161806106567
+---------------------------
+ID: 76752 STRATEGY:  AddFirstK, k = 1 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	14292.0	0.79	0	2	2	18616	 17400
+2	16688.76	1.85	2	2	2	19644	 17400
+3	16833.96	1.22	6	2	2	20672	 17400
+4	16918.77	1.16	8	2	2	21700	 17400
+5	16995.02	1.2	16	2	2	22728	 17400
+6	17042.63	1.35	28	0	0	23756	 17400
+TOTAL OBJECTIVE: 17042.63
+TOTAL TIME: 8.151266098022461
+---------------------------
+ID: 76752 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	14292.0	0.78	8	20	4	18616	 17400
+2	17027.92	3.04	26	2	2	20672	 17400
+3	17042.63	0.33	28	0	0	21700	 17400
+TOTAL OBJECTIVE: 17042.63
+TOTAL TIME: 4.770520925521851
+---------------------------
+ID: 76752 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.8
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	14292.0	0.8	8	20	4	18616	 17400
+2	17027.92	2.98	28	0	0	20672	 17400
+TOTAL OBJECTIVE: 17027.92
+TOTAL TIME: 4.189970970153809
+---------------------------
+ID: 76752 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.99999
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	14292.0	0.79	8	20	4	18616	 17400
+2	17027.92	2.93	9	19	3	20672	 17400
+3	17042.63	0.55	28	0	0	22214	 17400
+TOTAL OBJECTIVE: 17042.63
+TOTAL TIME: 4.901192903518677
+---------------------------
+ID: 47196 STRATEGY: AddAll TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	37563.75	0.92	2	26	26	18616	 17400
+2	39271.42	20.46	30	26	0	31980	 17400
+TOTAL OBJECTIVE: 39271.42
+TOTAL TIME: 22.357980966567993
+---------------------------
+ID: 47196 STRATEGY:  AddFirstK, k = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	37563.75	0.91	1	6	6	18616	 17400
+2	39096.16	3.8	12	6	6	21700	 17400
+3	39190.48	2.33	25	1	1	24784	 17400
+4	39271.42	1.98	20	4	4	25298	 17400
+5	39271.42	0.63	28	0	0	27354	 17400
+TOTAL OBJECTIVE: 39271.42
+TOTAL TIME: 10.484348058700562
+---------------------------
+ID: 47196 STRATEGY:  AddFirstK, k = 1 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	37563.75	0.95	0	2	2	18616	 17400
+2	38832.93	1.6	3	2	2	19644	 17400
+3	38995.08	1.19	6	2	2	20672	 17400
+4	39110.4	1.3	8	2	2	21700	 17400
+5	39189.45	1.65	10	2	2	22728	 17400
+6	39242.36	1.53	14	2	2	23756	 17400
+7	39271.42	1.48	28	0	0	24784	 17400
+TOTAL OBJECTIVE: 39271.42
+TOTAL TIME: 10.34624719619751
+---------------------------
+ID: 47196 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	37563.75	0.92	2	26	4	18616	 17400
+2	38796.22	2.54	9	19	3	20672	 17400
+3	39161.01	2.38	16	12	4	22214	 17400
+4	39190.48	1.88	26	2	2	24270	 17400
+5	39271.42	2.1	28	0	0	25298	 17400
+TOTAL OBJECTIVE: 39271.42
+TOTAL TIME: 10.887173175811768
+---------------------------
+ID: 47196 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.8
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	37563.75	0.91	2	26	4	18616	 17400
+2	38796.22	2.72	12	16	3	20672	 17400
+3	39117.21	2.4	24	4	4	22214	 17400
+4	39201.16	1.6	27	1	1	24270	 17400
+5	39270.56	3.31	28	0	0	24784	 17400
+TOTAL OBJECTIVE: 39270.56
+TOTAL TIME: 11.997373104095459
+---------------------------
+ID: 47196 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.99999
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	37563.75	0.93	2	26	4	18616	 17400
+2	38796.22	2.39	8	20	4	20672	 17400
+3	39181.92	3.42	17	11	2	22728	 17400
+4	39267.71	1.92	24	4	4	23756	 17400
+5	39271.42	0.94	28	0	0	25812	 17400
+TOTAL OBJECTIVE: 39271.42
+TOTAL TIME: 10.65362811088562
+---------------------------
+ID: 5982 STRATEGY: AddAll TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	17841.87	0.81	28	0	0	18616	 17400
+TOTAL OBJECTIVE: 17841.87
+TOTAL TIME: 1.0563089847564697
+---------------------------
+ID: 5982 STRATEGY:  AddFirstK, k = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	17841.87	0.84	28	0	0	18616	 17400
+TOTAL OBJECTIVE: 17841.87
+TOTAL TIME: 1.0322940349578857
+---------------------------
+ID: 5982 STRATEGY:  AddFirstK, k = 1 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	17841.87	0.81	28	0	0	18616	 17400
+TOTAL OBJECTIVE: 17841.87
+TOTAL TIME: 1.0069570541381836
+---------------------------
+ID: 5982 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	17841.87	0.81	28	0	0	18616	 17400
+TOTAL OBJECTIVE: 17841.87
+TOTAL TIME: 1.047719955444336
+---------------------------
+ID: 5982 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.8
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	17841.87	0.81	28	0	0	18616	 17400
+TOTAL OBJECTIVE: 17841.87
+TOTAL TIME: 1.0310451984405518
+---------------------------
+ID: 5982 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.99999
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	17841.87	0.82	28	0	0	18616	 17400
+TOTAL OBJECTIVE: 17841.87
+TOTAL TIME: 1.0169398784637451
+---------------------------
+ID: 48484 STRATEGY: AddAll TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	27611.37	0.78	5	23	23	18616	 17400
+2	29338.17	16.73	33	23	0	30438	 17400
+TOTAL OBJECTIVE: 29338.17
+TOTAL TIME: 17.981831789016724
+---------------------------
+ID: 48484 STRATEGY:  AddFirstK, k = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	27611.37	0.75	3	6	6	18616	 17400
+2	29159.0	3.4	9	6	6	21700	 17400
+3	29338.17	2.63	28	0	0	24784	 17400
+TOTAL OBJECTIVE: 29338.17
+TOTAL TIME: 7.745196104049683
+---------------------------
+ID: 48484 STRATEGY:  AddFirstK, k = 1 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	27611.37	0.76	1	2	2	18616	 17400
+2	28590.11	1.19	3	2	2	19644	 17400
+3	28686.5	0.65	5	2	2	20672	 17400
+4	28726.04	0.55	7	2	2	21700	 17400
+5	29188.53	2.46	9	2	2	22728	 17400
+6	29338.17	1.32	28	0	0	23756	 17400
+TOTAL OBJECTIVE: 29338.17
+TOTAL TIME: 7.537401914596558
+---------------------------
+ID: 48484 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	27611.37	0.76	5	23	4	18616	 17400
+2	29338.17	2.24	28	0	0	20672	 17400
+TOTAL OBJECTIVE: 29338.17
+TOTAL TIME: 3.410327911376953
+---------------------------
+ID: 48484 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.8
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	27611.37	0.76	5	23	4	18616	 17400
+2	29338.17	2.24	28	0	0	20672	 17400
+TOTAL OBJECTIVE: 29338.17
+TOTAL TIME: 3.429314136505127
+---------------------------
+ID: 48484 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.99999
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	27611.37	0.76	5	23	4	18616	 17400
+2	29338.17	2.28	28	0	0	20672	 17400
+TOTAL OBJECTIVE: 29338.17
+TOTAL TIME: 3.4438490867614746
+---------------------------
+ID: 78861 STRATEGY: AddAll TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	20106.84	0.89	12	16	16	18616	 17400
+2	20362.27	4.41	40	16	0	26840	 17400
+TOTAL OBJECTIVE: 20362.27
+TOTAL TIME: 5.811117887496948
+---------------------------
+ID: 78861 STRATEGY:  AddFirstK, k = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	20106.84	0.88	4	6	6	18616	 17400
+2	20362.27	1.46	28	0	0	21700	 17400
+TOTAL OBJECTIVE: 20362.27
+TOTAL TIME: 2.640101909637451
+---------------------------
+ID: 78861 STRATEGY:  AddFirstK, k = 1 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	20106.84	0.9	0	2	2	18616	 17400
+2	20323.77	0.68	6	2	2	19644	 17400
+3	20350.95	0.52	12	2	2	20672	 17400
+4	20362.27	0.47	28	0	0	21700	 17400
+TOTAL OBJECTIVE: 20362.27
+TOTAL TIME: 3.0231740474700928
+---------------------------
+ID: 78861 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	20106.84	0.9	12	16	4	18616	 17400
+2	20362.27	1.03	28	0	0	20672	 17400
+TOTAL OBJECTIVE: 20362.27
+TOTAL TIME: 2.3425490856170654
+---------------------------
+ID: 78861 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.8
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	20106.84	0.89	12	16	4	18616	 17400
+2	20362.27	1.04	28	0	0	20672	 17400
+TOTAL OBJECTIVE: 20362.27
+TOTAL TIME: 2.3574109077453613
+---------------------------
+ID: 78861 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.99999
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	20106.84	0.89	12	16	4	18616	 17400
+2	20362.27	1.03	28	0	0	20672	 17400
+TOTAL OBJECTIVE: 20362.27
+TOTAL TIME: 2.3426339626312256
+---------------------------
+ID: 2797 STRATEGY: AddAll TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	23143.03	0.62	16	12	12	18616	 17400
+2	23311.0	1.41	44	12	0	24784	 17400
+TOTAL OBJECTIVE: 23311.0
+TOTAL TIME: 2.53438401222229
+---------------------------
+ID: 2797 STRATEGY:  AddFirstK, k = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	23143.03	0.64	6	6	6	18616	 17400
+2	23311.0	0.71	28	0	0	21700	 17400
+TOTAL OBJECTIVE: 23311.0
+TOTAL TIME: 1.6541922092437744
+---------------------------
+ID: 2797 STRATEGY:  AddFirstK, k = 1 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	23143.03	0.64	0	2	2	18616	 17400
+2	23311.0	0.51	28	0	0	19644	 17400
+TOTAL OBJECTIVE: 23311.0
+TOTAL TIME: 1.9245989322662354
+---------------------------
+ID: 2797 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	23143.03	1.11	16	12	2	18616	 17400
+2	23311.0	0.41	28	0	0	19644	 17400
+TOTAL OBJECTIVE: 23311.0
+TOTAL TIME: 1.9559109210968018
+---------------------------
+ID: 2797 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.8
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	23143.03	0.68	16	12	2	18616	 17400
+2	23311.0	0.42	28	0	0	19644	 17400
+TOTAL OBJECTIVE: 23311.0
+TOTAL TIME: 1.5370149612426758
+---------------------------
+ID: 2797 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.99999
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	23143.03	0.67	16	12	2	18616	 17400
+2	23311.0	0.41	28	0	0	19644	 17400
+TOTAL OBJECTIVE: 23311.0
+TOTAL TIME: 1.5048530101776123
+---------------------------
+ID: 13665 STRATEGY: AddAll TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	25230.29	1.07	7	21	21	18616	 17400
+2	26619.53	12.56	35	21	0	29410	 17400
+TOTAL OBJECTIVE: 26619.53
+TOTAL TIME: 14.16781997680664
+---------------------------
+ID: 13665 STRATEGY:  AddFirstK, k = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	25230.29	1.07	3	6	6	18616	 17400
+2	26535.54	3.84	15	4	4	21700	 17400
+3	26619.53	1.99	28	0	0	23756	 17400
+TOTAL OBJECTIVE: 26619.53
+TOTAL TIME: 7.340775966644287
+---------------------------
+ID: 13665 STRATEGY:  AddFirstK, k = 1 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	25230.29	1.08	0	2	2	18616	 17400
+2	25704.82	0.92	3	2	2	19644	 17400
+3	26245.47	1.73	6	2	2	20672	 17400
+4	26340.2	1.21	9	2	2	21700	 17400
+5	26543.42	2.22	11	2	2	22728	 17400
+6	26575.55	1.2	8	2	2	23756	 17400
+7	26619.53	1.88	28	0	0	24784	 17400
+TOTAL OBJECTIVE: 26619.53
+TOTAL TIME: 10.999901056289673
+---------------------------
+ID: 13665 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	25230.29	1.06	7	21	4	18616	 17400
+2	26379.46	2.06	10	18	3	20672	 17400
+3	26619.53	1.58	28	0	0	22214	 17400
+TOTAL OBJECTIVE: 26619.53
+TOTAL TIME: 5.341389894485474
+---------------------------
+ID: 13665 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.8
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	25230.29	1.08	7	21	4	18616	 17400
+2	26379.46	2.06	11	17	3	20672	 17400
+3	26619.53	1.62	28	0	0	22214	 17400
+TOTAL OBJECTIVE: 26619.53
+TOTAL TIME: 5.418999910354614
+---------------------------
+ID: 13665 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.99999
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	25230.29	1.06	7	21	4	18616	 17400
+2	26379.46	2.06	8	20	4	20672	 17400
+3	26619.53	1.86	28	0	0	22728	 17400
+TOTAL OBJECTIVE: 26619.53
+TOTAL TIME: 5.624594211578369
+---------------------------
+ID: 649 STRATEGY: AddAll TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	30886.9	1.11	9	19	19	18616	 17400
+2	31168.38	7.21	37	19	0	28382	 17400
+TOTAL OBJECTIVE: 31168.38
+TOTAL TIME: 8.8280189037323
+---------------------------
+ID: 649 STRATEGY:  AddFirstK, k = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	30886.9	1.1	1	6	6	18616	 17400
+2	31168.37	2.43	28	0	0	21700	 17400
+TOTAL OBJECTIVE: 31168.37
+TOTAL TIME: 3.79886794090271
+---------------------------
+ID: 649 STRATEGY:  AddFirstK, k = 1 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	30886.9	1.1	0	2	2	18616	 17400
+2	30902.7	0.32	3	2	2	19644	 17400
+3	31165.77	1.75	28	0	0	20672	 17400
+TOTAL OBJECTIVE: 31165.77
+TOTAL TIME: 3.4489500522613525
+---------------------------
+ID: 649 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	30886.9	1.11	9	19	4	18616	 17400
+2	31168.38	2.14	28	0	0	20672	 17400
+TOTAL OBJECTIVE: 31168.38
+TOTAL TIME: 3.6937310695648193
+---------------------------
+ID: 649 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.8
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	30886.9	1.1	9	19	4	18616	 17400
+2	31168.38	2.11	28	0	0	20672	 17400
+TOTAL OBJECTIVE: 31168.38
+TOTAL TIME: 3.6234960556030273
+---------------------------
+ID: 649 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.99999
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	30886.9	1.1	6	22	4	18616	 17400
+2	31168.37	1.89	28	0	0	20672	 17400
+TOTAL OBJECTIVE: 31168.37
+TOTAL TIME: 3.409637928009033
+---------------------------
+ID: 27091 STRATEGY: AddAll TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	18790.0	0.73	28	0	0	18616	 17400
+TOTAL OBJECTIVE: 18790.0
+TOTAL TIME: 0.9220328330993652
+---------------------------
+ID: 27091 STRATEGY:  AddFirstK, k = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	18790.0	0.72	28	0	0	18616	 17400
+TOTAL OBJECTIVE: 18790.0
+TOTAL TIME: 0.9167029857635498
+---------------------------
+ID: 27091 STRATEGY:  AddFirstK, k = 1 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	18790.0	0.72	28	0	0	18616	 17400
+TOTAL OBJECTIVE: 18790.0
+TOTAL TIME: 1.582815170288086
+---------------------------
+ID: 27091 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	18790.0	0.73	28	0	0	18616	 17400
+TOTAL OBJECTIVE: 18790.0
+TOTAL TIME: 0.9217100143432617
+---------------------------
+ID: 27091 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.8
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	18790.0	0.73	28	0	0	18616	 17400
+TOTAL OBJECTIVE: 18790.0
+TOTAL TIME: 0.9217989444732666
+---------------------------
+ID: 27091 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.99999
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	18790.0	0.73	28	0	0	18616	 17400
+TOTAL OBJECTIVE: 18790.0
+TOTAL TIME: 0.9222879409790039
+---------------------------
+ID: 20174 STRATEGY: AddAll TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	23099.75	0.77	28	0	0	18616	 17400
+TOTAL OBJECTIVE: 23099.75
+TOTAL TIME: 1.024867057800293
+---------------------------
+ID: 20174 STRATEGY:  AddFirstK, k = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	23099.75	0.78	28	0	0	18616	 17400
+TOTAL OBJECTIVE: 23099.75
+TOTAL TIME: 0.9741909503936768
+---------------------------
+ID: 20174 STRATEGY:  AddFirstK, k = 1 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	23099.75	0.77	28	0	0	18616	 17400
+TOTAL OBJECTIVE: 23099.75
+TOTAL TIME: 0.9633760452270508
+---------------------------
+ID: 20174 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	23099.75	0.77	28	0	0	18616	 17400
+TOTAL OBJECTIVE: 23099.75
+TOTAL TIME: 0.9702560901641846
+---------------------------
+ID: 20174 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.8
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	23099.75	0.78	28	0	0	18616	 17400
+TOTAL OBJECTIVE: 23099.75
+TOTAL TIME: 1.0143158435821533
+---------------------------
+ID: 20174 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.99999
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	23099.75	0.76	28	0	0	18616	 17400
+TOTAL OBJECTIVE: 23099.75
+TOTAL TIME: 0.9714860916137695
+---------------------------
+ID: 45473 STRATEGY: AddAll TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	26255.0	0.75	28	0	0	18616	 17400
+TOTAL OBJECTIVE: 26255.0
+TOTAL TIME: 0.9438180923461914
+---------------------------
+ID: 45473 STRATEGY:  AddFirstK, k = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	26255.0	0.74	28	0	0	18616	 17400
+TOTAL OBJECTIVE: 26255.0
+TOTAL TIME: 1.0172841548919678
+---------------------------
+ID: 45473 STRATEGY:  AddFirstK, k = 1 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	26255.0	0.75	28	0	0	18616	 17400
+TOTAL OBJECTIVE: 26255.0
+TOTAL TIME: 0.9468631744384766
+---------------------------
+ID: 45473 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	26255.0	0.74	28	0	0	18616	 17400
+TOTAL OBJECTIVE: 26255.0
+TOTAL TIME: 0.9497959613800049
+---------------------------
+ID: 45473 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.8
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	26255.0	0.75	28	0	0	18616	 17400
+TOTAL OBJECTIVE: 26255.0
+TOTAL TIME: 0.9487380981445312
+---------------------------
+ID: 45473 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.99999
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	26255.0	0.8	28	0	0	18616	 17400
+TOTAL OBJECTIVE: 26255.0
+TOTAL TIME: 1.0204589366912842
+---------------------------
+ID: 24139 STRATEGY: AddAll TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	17728.06	0.82	7	21	21	18616	 17400
+2	17897.17	5.73	35	21	0	29410	 17400
+TOTAL OBJECTIVE: 17897.17
+TOTAL TIME: 7.022123098373413
+---------------------------
+ID: 24139 STRATEGY:  AddFirstK, k = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	17728.06	0.79	1	6	6	18616	 17400
+2	17891.43	1.56	22	6	6	21700	 17400
+3	17897.17	0.72	28	0	0	24784	 17400
+TOTAL OBJECTIVE: 17897.17
+TOTAL TIME: 4.185395002365112
+---------------------------
+ID: 24139 STRATEGY:  AddFirstK, k = 1 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	17728.06	0.79	1	2	2	18616	 17400
+2	17775.2	0.5	4	2	2	19644	 17400
+3	17846.94	1.04	8	2	2	20672	 17400
+4	17854.16	0.43	14	2	2	21700	 17400
+5	17880.03	0.85	18	2	2	22728	 17400
+6	17891.43	0.53	11	2	2	23756	 17400
+7	17897.17	0.79	28	0	0	24784	 17400
+TOTAL OBJECTIVE: 17897.17
+TOTAL TIME: 5.705495834350586
+---------------------------
+ID: 24139 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	17728.06	0.81	7	21	3	18616	 17400
+2	17864.42	0.94	20	8	2	20158	 17400
+3	17897.17	0.54	28	0	0	21186	 17400
+TOTAL OBJECTIVE: 17897.17
+TOTAL TIME: 2.90897798538208
+---------------------------
+ID: 24139 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.8
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	17728.06	0.79	9	19	3	18616	 17400
+2	17864.42	0.95	20	8	2	20158	 17400
+3	17897.17	0.54	28	0	0	21186	 17400
+TOTAL OBJECTIVE: 17897.17
+TOTAL TIME: 2.902704954147339
+---------------------------
+ID: 24139 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.99999
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	17728.06	0.81	7	21	3	18616	 17400
+2	17864.42	0.97	13	15	3	20158	 17400
+3	17897.17	0.63	28	0	0	21700	 17400
+TOTAL OBJECTIVE: 17897.17
+TOTAL TIME: 3.042823076248169
+---------------------------
+ID: 40307 STRATEGY: AddAll TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	15106.06	0.97	28	0	0	18616	 17400
+TOTAL OBJECTIVE: 15106.06
+TOTAL TIME: 1.2233788967132568
+---------------------------
+ID: 40307 STRATEGY:  AddFirstK, k = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	15106.06	0.96	28	0	0	18616	 17400
+TOTAL OBJECTIVE: 15106.06
+TOTAL TIME: 1.1620159149169922
+---------------------------
+ID: 40307 STRATEGY:  AddFirstK, k = 1 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	15106.06	0.96	28	0	0	18616	 17400
+TOTAL OBJECTIVE: 15106.06
+TOTAL TIME: 1.1588609218597412
+---------------------------
+ID: 40307 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	15106.06	0.95	28	0	0	18616	 17400
+TOTAL OBJECTIVE: 15106.06
+TOTAL TIME: 1.15529203414917
+---------------------------
+ID: 40307 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.8
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	15106.06	0.97	28	0	0	18616	 17400
+TOTAL OBJECTIVE: 15106.06
+TOTAL TIME: 1.2035729885101318
+---------------------------
+ID: 40307 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.99999
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	15106.06	0.96	17	11	3	18616	 17400
+2	15113.54	0.32	25	3	3	20158	 17400
+3	15115.51	0.26	25	3	3	21700	 17400
+4	15116.36	0.33	28	0	0	23242	 17400
+TOTAL OBJECTIVE: 15116.36
+TOTAL TIME: 2.7201600074768066
+---------------------------
+ID: 83207 STRATEGY: AddAll TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	30801.82	1.17	9	19	19	18616	 17400
+2	31796.39	13.48	37	19	0	28382	 17400
+TOTAL OBJECTIVE: 31796.39
+TOTAL TIME: 15.118456840515137
+---------------------------
+ID: 83207 STRATEGY:  AddFirstK, k = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	30801.82	0.97	1	6	6	18616	 17400
+2	31693.31	3.01	13	6	6	21700	 17400
+3	31751.35	3.17	21	3	3	24784	 17400
+4	31796.39	3.38	28	0	0	26326	 17400
+TOTAL OBJECTIVE: 31796.39
+TOTAL TIME: 11.192296028137207
+---------------------------
+ID: 83207 STRATEGY:  AddFirstK, k = 1 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	30801.82	0.99	0	2	2	18616	 17400
+2	31358.09	1.0	5	2	2	19644	 17400
+3	31509.91	0.94	9	2	2	20672	 17400
+4	31702.38	1.62	5	2	2	21700	 17400
+5	31727.02	1.28	14	2	2	22728	 17400
+6	31761.34	2.0	16	2	2	23756	 17400
+7	31796.39	2.21	28	0	0	24784	 17400
+TOTAL OBJECTIVE: 31796.39
+TOTAL TIME: 10.77688717842102
+---------------------------
+ID: 83207 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	30801.82	0.97	9	19	4	18616	 17400
+2	31674.42	2.03	13	15	3	20672	 17400
+3	31796.39	1.82	28	0	0	22214	 17400
+TOTAL OBJECTIVE: 31796.39
+TOTAL TIME: 5.467906951904297
+---------------------------
+ID: 83207 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.8
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	30801.82	0.97	9	19	4	18616	 17400
+2	31674.42	1.96	20	8	2	20672	 17400
+3	31791.28	1.5	28	0	0	21700	 17400
+TOTAL OBJECTIVE: 31791.28
+TOTAL TIME: 5.065842151641846
+---------------------------
+ID: 83207 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.99999
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	30801.82	0.97	2	26	4	18616	 17400
+2	31650.68	1.71	12	16	3	20672	 17400
+3	31780.64	2.17	14	14	3	22214	 17400
+4	31796.39	1.58	26	2	2	23756	 17400
+5	31796.39	0.26	28	0	0	24784	 17400
+TOTAL OBJECTIVE: 31796.39
+TOTAL TIME: 7.749197006225586
+---------------------------
+ID: 75243 STRATEGY: AddAll TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	15385.36	1.0	8	20	20	18616	 17400
+2	16206.19	9.86	36	20	0	28896	 17400
+TOTAL OBJECTIVE: 16206.19
+TOTAL TIME: 11.3821439743042
+---------------------------
+ID: 75243 STRATEGY:  AddFirstK, k = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	15385.36	0.99	0	6	6	18616	 17400
+2	16122.3	3.59	10	6	6	21700	 17400
+3	16205.64	3.53	28	0	0	24784	 17400
+TOTAL OBJECTIVE: 16205.64
+TOTAL TIME: 8.52083706855774
+---------------------------
+ID: 75243 STRATEGY:  AddFirstK, k = 1 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	15385.36	0.99	0	2	2	18616	 17400
+2	15519.9	0.74	5	2	2	19644	 17400
+3	16116.73	1.57	7	2	2	20672	 17400
+4	16160.79	1.13	11	2	2	21700	 17400
+5	16195.92	1.78	27	1	1	22728	 17400
+6	16206.19	0.93	28	0	0	23242	 17400
+TOTAL OBJECTIVE: 16206.19
+TOTAL TIME: 8.494982957839966
+---------------------------
+ID: 75243 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	15385.36	1.01	8	20	3	18616	 17400
+2	15985.82	1.74	10	18	4	20158	 17400
+3	16204.82	2.83	28	0	0	22214	 17400
+TOTAL OBJECTIVE: 16204.82
+TOTAL TIME: 6.219397068023682
+---------------------------
+ID: 75243 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.8
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	15385.36	1.0	10	18	4	18616	 17400
+2	16078.84	2.27	16	12	3	20672	 17400
+3	16204.82	1.81	28	0	0	22214	 17400
+TOTAL OBJECTIVE: 16204.82
+TOTAL TIME: 5.725888967514038
+---------------------------
+ID: 75243 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.99999
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	15385.36	1.01	5	23	4	18616	 17400
+2	16134.68	2.09	12	16	3	20672	 17400
+3	16206.08	1.94	24	4	4	22214	 17400
+4	16206.19	0.56	28	0	0	24270	 17400
+TOTAL OBJECTIVE: 16206.19
+TOTAL TIME: 6.455957889556885
+---------------------------
+ID: 44438 STRATEGY: AddAll TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	15215.71	1.12	7	21	21	18616	 17400
+2	16162.35	14.11	35	21	0	29410	 17400
+TOTAL OBJECTIVE: 16162.35
+TOTAL TIME: 15.707208156585693
+---------------------------
+ID: 44438 STRATEGY:  AddFirstK, k = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	15215.71	1.05	2	6	6	18616	 17400
+2	16098.7	3.86	13	5	5	21700	 17400
+3	16162.1	2.74	28	0	0	24270	 17400
+TOTAL OBJECTIVE: 16162.1
+TOTAL TIME: 8.139472007751465
+---------------------------
+ID: 44438 STRATEGY:  AddFirstK, k = 1 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	15215.71	1.05	1	2	2	18616	 17400
+2	15488.69	0.76	3	2	2	19644	 17400
+3	15960.93	1.96	5	2	2	20672	 17400
+4	16102.7	1.63	8	2	2	21700	 17400
+5	16138.31	1.72	14	2	2	22728	 17400
+6	16147.13	1.42	11	2	2	23756	 17400
+7	16162.35	1.74	28	0	0	24784	 17400
+TOTAL OBJECTIVE: 16162.35
+TOTAL TIME: 10.994433879852295
+---------------------------
+ID: 44438 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	15215.71	1.06	7	21	4	18616	 17400
+2	16162.35	2.52	28	0	0	20672	 17400
+TOTAL OBJECTIVE: 16162.35
+TOTAL TIME: 3.994828939437866
+---------------------------
+ID: 44438 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.8
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	15215.71	1.08	7	21	4	18616	 17400
+2	16162.35	2.56	28	0	0	20672	 17400
+TOTAL OBJECTIVE: 16162.35
+TOTAL TIME: 4.09083890914917
+---------------------------
+ID: 44438 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.99999
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	15215.71	1.05	6	22	4	18616	 17400
+2	16162.35	2.59	28	0	0	20672	 17400
+TOTAL OBJECTIVE: 16162.35
+TOTAL TIME: 4.067502021789551
+---------------------------
+ID: 71102 STRATEGY: AddAll TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	19385.51	0.93	7	21	21	18616	 17400
+2	21510.58	10.71	35	21	0	29410	 17400
+TOTAL OBJECTIVE: 21510.58
+TOTAL TIME: 12.11733102798462
+---------------------------
+ID: 71102 STRATEGY:  AddFirstK, k = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	19385.51	0.95	0	6	6	18616	 17400
+2	21415.95	2.98	19	3	3	21700	 17400
+3	21510.58	1.21	28	0	0	23242	 17400
+TOTAL OBJECTIVE: 21510.58
+TOTAL TIME: 5.627104997634888
+---------------------------
+ID: 71102 STRATEGY:  AddFirstK, k = 1 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	19385.51	0.94	0	2	2	18616	 17400
+2	20163.23	0.94	3	2	2	19644	 17400
+3	21338.67	1.8	6	2	2	20672	 17400
+4	21417.03	0.87	9	2	2	21700	 17400
+5	21481.99	1.23	13	2	2	22728	 17400
+6	21510.58	1.17	28	0	0	23756	 17400
+TOTAL OBJECTIVE: 21510.58
+TOTAL TIME: 7.516954183578491
+---------------------------
+ID: 71102 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	19385.51	1.24	7	21	4	18616	 17400
+2	21418.17	3.41	13	15	4	20672	 17400
+3	21510.58	1.06	28	0	0	22728	 17400
+TOTAL OBJECTIVE: 21510.58
+TOTAL TIME: 6.3664491176605225
+---------------------------
+ID: 71102 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.8
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	19385.51	1.17	7	21	4	18616	 17400
+2	21418.17	3.34	16	12	4	20672	 17400
+3	21510.58	1.08	28	0	0	22728	 17400
+TOTAL OBJECTIVE: 21510.58
+TOTAL TIME: 6.25692892074585
+---------------------------
+ID: 71102 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.99999
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	19385.51	0.96	7	21	4	18616	 17400
+2	21418.17	2.41	9	19	4	20672	 17400
+3	21510.58	1.05	26	2	2	22728	 17400
+4	21510.58	0.25	28	0	0	23756	 17400
+TOTAL OBJECTIVE: 21510.58
+TOTAL TIME: 5.536876201629639
+---------------------------
+ID: 78775 STRATEGY: AddAll TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	22129.47	1.24	9	19	19	18616	 17400
+2	22569.66	6.7	37	19	0	28382	 17400
+TOTAL OBJECTIVE: 22569.66
+TOTAL TIME: 8.460271835327148
+---------------------------
+ID: 78775 STRATEGY:  AddFirstK, k = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	22129.47	1.05	4	6	6	18616	 17400
+2	22305.76	2.14	9	6	6	21700	 17400
+3	22569.66	3.42	28	0	0	24784	 17400
+TOTAL OBJECTIVE: 22569.66
+TOTAL TIME: 7.046844959259033
+---------------------------
+ID: 78775 STRATEGY:  AddFirstK, k = 1 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	22129.47	1.07	3	2	2	18616	 17400
+2	22198.96	0.66	5	2	2	19644	 17400
+3	22349.62	1.37	1	2	2	20672	 17400
+4	22372.7	0.89	9	2	2	21700	 17400
+5	22404.68	1.47	11	2	2	22728	 17400
+6	22569.66	1.91	28	0	0	23756	 17400
+TOTAL OBJECTIVE: 22569.66
+TOTAL TIME: 7.978671073913574
+---------------------------
+ID: 78775 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	22129.47	1.06	9	19	4	18616	 17400
+2	22569.66	1.69	28	0	0	20672	 17400
+TOTAL OBJECTIVE: 22569.66
+TOTAL TIME: 3.185338020324707
+---------------------------
+ID: 78775 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.8
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	22129.47	1.06	9	19	4	18616	 17400
+2	22569.66	1.63	28	0	0	20672	 17400
+TOTAL OBJECTIVE: 22569.66
+TOTAL TIME: 3.11226487159729
+---------------------------
+ID: 78775 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.99999
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	22129.47	1.07	2	26	4	18616	 17400
+2	22569.66	1.29	28	0	0	20672	 17400
+TOTAL OBJECTIVE: 22569.66
+TOTAL TIME: 2.7865560054779053
+---------------------------
+ID: 97261 STRATEGY: AddAll TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	16249.88	1.26	6	22	22	18616	 17400
+2	18029.78	16.59	34	22	0	29924	 17400
+TOTAL OBJECTIVE: 18029.78
+TOTAL TIME: 18.33061909675598
+---------------------------
+ID: 97261 STRATEGY:  AddFirstK, k = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	16249.88	1.74	1	6	6	18616	 17400
+2	18009.98	4.5	15	3	3	21700	 17400
+3	18029.78	0.89	28	0	0	23242	 17400
+TOTAL OBJECTIVE: 18029.78
+TOTAL TIME: 7.611128091812134
+---------------------------
+ID: 97261 STRATEGY:  AddFirstK, k = 1 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	16249.88	1.76	0	2	2	18616	 17400
+2	16906.4	1.4	2	2	2	19644	 17400
+3	17662.73	3.37	4	2	2	20672	 17400
+4	17826.28	1.24	6	2	2	21700	 17400
+5	18027.35	2.28	10	2	2	22728	 17400
+6	18029.78	0.52	28	0	0	23756	 17400
+TOTAL OBJECTIVE: 18029.78
+TOTAL TIME: 12.063650846481323
+---------------------------
+ID: 97261 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	16249.88	2.04	6	22	4	18616	 17400
+2	17896.26	3.28	18	10	2	20672	 17400
+3	18018.8	1.38	24	4	4	21700	 17400
+4	18029.78	1.28	28	0	0	23756	 17400
+TOTAL OBJECTIVE: 18029.78
+TOTAL TIME: 8.871145009994507
+---------------------------
+ID: 97261 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.8
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	16249.88	1.99	6	22	4	18616	 17400
+2	17896.26	2.61	22	6	1	20672	 17400
+3	18015.07	1.0	25	3	3	21186	 17400
+4	18029.78	0.91	28	0	0	22728	 17400
+TOTAL OBJECTIVE: 18029.78
+TOTAL TIME: 7.4029669761657715
+---------------------------
+ID: 97261 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.99999
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	16249.88	2.15	4	24	3	18616	 17400
+2	17648.07	3.52	7	21	4	20158	 17400
+3	18019.86	2.78	19	9	2	22214	 17400
+4	18029.78	0.86	28	0	0	23242	 17400
+TOTAL OBJECTIVE: 18029.78
+TOTAL TIME: 10.179514169692993
+---------------------------
+ID: 32186 STRATEGY: AddAll TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	17410.97	1.88	4	24	24	18616	 17400
+2	18817.05	21.55	32	24	0	30952	 17400
+TOTAL OBJECTIVE: 18817.05
+TOTAL TIME: 23.966567993164062
+---------------------------
+ID: 32186 STRATEGY:  AddFirstK, k = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	17410.97	1.08	1	6	6	18616	 17400
+2	18485.53	3.71	7	6	6	21700	 17400
+3	18808.56	5.9	26	1	1	24784	 17400
+4	18817.05	0.95	28	0	0	25298	 17400
+TOTAL OBJECTIVE: 18817.05
+TOTAL TIME: 12.264543056488037
+---------------------------
+ID: 32186 STRATEGY:  AddFirstK, k = 1 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	17410.97	1.37	0	2	2	18616	 17400
+2	17450.48	0.65	2	2	2	19644	 17400
+3	17841.63	2.23	4	2	2	20672	 17400
+4	17919.36	1.85	6	2	2	21700	 17400
+5	18044.86	2.62	8	2	2	22728	 17400
+6	18240.25	3.65	10	2	2	23756	 17400
+7	18342.54	3.46	12	2	2	24784	 17400
+8	18587.53	6.75	14	2	2	25812	 17400
+9	18687.01	5.15	16	2	2	26840	 17400
+10	18771.12	7.01	18	2	2	27868	 17400
+11	18817.05	5.45	28	0	0	28896	 17400
+TOTAL OBJECTIVE: 18817.05
+TOTAL TIME: 41.35949492454529
+---------------------------
+ID: 32186 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	17410.97	1.09	4	24	4	18616	 17400
+2	18138.75	2.5	7	21	3	20672	 17400
+3	18524.39	2.99	11	17	4	22214	 17400
+4	18733.62	3.55	23	5	5	24270	 17400
+5	18817.05	5.04	28	0	0	26840	 17400
+TOTAL OBJECTIVE: 18817.05
+TOTAL TIME: 16.279776096343994
+---------------------------
+ID: 32186 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.8
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	17410.97	1.03	4	24	4	18616	 17400
+2	18138.75	2.5	12	16	2	20672	 17400
+3	18523.03	2.26	17	11	3	21700	 17400
+4	18745.24	3.95	25	3	3	23242	 17400
+5	18817.05	2.8	28	0	0	24784	 17400
+TOTAL OBJECTIVE: 18817.05
+TOTAL TIME: 13.645719051361084
+---------------------------
+ID: 32186 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.99999
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	17410.97	1.03	3	25	4	18616	 17400
+2	18138.67	2.44	6	22	3	20672	 17400
+3	18580.81	3.23	8	20	3	22214	 17400
+4	18732.96	3.76	12	16	4	23756	 17400
+5	18798.95	4.7	16	12	4	25812	 17400
+6	18817.05	3.03	28	0	0	27868	 17400
+TOTAL OBJECTIVE: 18817.05
+TOTAL TIME: 19.643429040908813
+---------------------------
+ID: 86633 STRATEGY: AddAll TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	18694.58	1.09	11	17	17	18616	 17400
+2	18983.0	3.02	39	17	0	27354	 17400
+TOTAL OBJECTIVE: 18983.0
+TOTAL TIME: 4.629932880401611
+---------------------------
+ID: 86633 STRATEGY:  AddFirstK, k = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	18694.58	1.07	6	6	6	18616	 17400
+2	18983.0	1.26	28	0	0	21700	 17400
+TOTAL OBJECTIVE: 18983.0
+TOTAL TIME: 2.6474928855895996
+---------------------------
+ID: 86633 STRATEGY:  AddFirstK, k = 1 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	18694.58	1.07	0	2	2	18616	 17400
+2	18973.66	0.91	9	2	2	19644	 17400
+3	18983.0	0.28	28	0	0	20672	 17400
+TOTAL OBJECTIVE: 18983.0
+TOTAL TIME: 2.6251089572906494
+---------------------------
+ID: 86633 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	18694.58	1.08	11	17	2	18616	 17400
+2	18983.0	0.77	28	0	0	19644	 17400
+TOTAL OBJECTIVE: 18983.0
+TOTAL TIME: 2.26200008392334
+---------------------------
+ID: 86633 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.8
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	18694.58	1.09	16	12	2	18616	 17400
+2	18983.0	1.13	28	0	0	19644	 17400
+TOTAL OBJECTIVE: 18983.0
+TOTAL TIME: 2.6967251300811768
+---------------------------
+ID: 86633 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.99999
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	18694.58	1.07	7	21	3	18616	 17400
+2	18983.0	0.95	28	0	0	20158	 17400
+TOTAL OBJECTIVE: 18983.0
+TOTAL TIME: 2.436875104904175
+---------------------------
+ID: 60390 STRATEGY: AddAll TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	16178.0	0.49	28	0	0	18616	 17400
+TOTAL OBJECTIVE: 16178.0
+TOTAL TIME: 0.7419049739837646
+---------------------------
+ID: 60390 STRATEGY:  AddFirstK, k = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	16178.0	0.49	28	0	0	18616	 17400
+TOTAL OBJECTIVE: 16178.0
+TOTAL TIME: 0.6845059394836426
+---------------------------
+ID: 60390 STRATEGY:  AddFirstK, k = 1 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	16178.0	0.49	28	0	0	18616	 17400
+TOTAL OBJECTIVE: 16178.0
+TOTAL TIME: 0.6875030994415283
+---------------------------
+ID: 60390 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	16178.0	0.49	28	0	0	18616	 17400
+TOTAL OBJECTIVE: 16178.0
+TOTAL TIME: 0.6925399303436279
+---------------------------
+ID: 60390 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.8
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	16178.0	0.5	28	0	0	18616	 17400
+TOTAL OBJECTIVE: 16178.0
+TOTAL TIME: 0.7331500053405762
+---------------------------
+ID: 60390 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.99999
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	16178.0	0.49	28	0	0	18616	 17400
+TOTAL OBJECTIVE: 16178.0
+TOTAL TIME: 0.6867377758026123
+---------------------------
+ID: 10638 STRATEGY: AddAll TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	10159.66	0.74	9	19	19	18616	 17400
+2	12093.17	10.82	37	19	0	28382	 17400
+TOTAL OBJECTIVE: 12093.17
+TOTAL TIME: 12.879239082336426
+---------------------------
+ID: 10638 STRATEGY:  AddFirstK, k = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	10159.66	0.73	3	5	5	18616	 17400
+2	12093.17	2.71	28	0	0	21186	 17400
+TOTAL OBJECTIVE: 12093.17
+TOTAL TIME: 3.724453926086426
+---------------------------
+ID: 10638 STRATEGY:  AddFirstK, k = 1 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	10159.66	0.76	0	2	2	18616	 17400
+2	12020.07	2.65	4	2	2	19644	 17400
+3	12077.91	0.79	7	2	2	20672	 17400
+4	12093.17	0.54	28	0	0	21700	 17400
+TOTAL OBJECTIVE: 12093.17
+TOTAL TIME: 5.12540602684021
+---------------------------
+ID: 10638 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	10159.66	1.25	9	19	3	18616	 17400
+2	12093.17	4.31	28	0	0	20158	 17400
+TOTAL OBJECTIVE: 12093.17
+TOTAL TIME: 5.992385149002075
+---------------------------
+ID: 10638 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.8
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	10159.66	1.48	13	15	3	18616	 17400
+2	12093.17	1.99	28	0	0	20158	 17400
+TOTAL OBJECTIVE: 12093.17
+TOTAL TIME: 3.899930000305176
+---------------------------
+ID: 10638 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.99999
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	10159.66	0.74	9	19	3	18616	 17400
+2	12093.17	1.81	28	0	0	20158	 17400
+TOTAL OBJECTIVE: 12093.17
+TOTAL TIME: 2.9692580699920654
+---------------------------
+ID: 38840 STRATEGY: AddAll TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	21154.44	2.04	7	21	21	18616	 17400
+2	22830.0	10.59	35	21	0	29410	 17400
+TOTAL OBJECTIVE: 22830.0
+TOTAL TIME: 13.21171498298645
+---------------------------
+ID: 38840 STRATEGY:  AddFirstK, k = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	21154.44	1.83	2	6	6	18616	 17400
+2	22760.89	7.76	9	6	6	21700	 17400
+3	22830.0	1.52	28	0	0	24784	 17400
+TOTAL OBJECTIVE: 22830.0
+TOTAL TIME: 11.537296056747437
+---------------------------
+ID: 38840 STRATEGY:  AddFirstK, k = 1 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	21154.44	1.13	0	2	2	18616	 17400
+2	22158.77	1.67	3	2	2	19644	 17400
+3	22618.6	1.63	5	2	2	20672	 17400
+4	22830.0	0.88	28	0	0	21700	 17400
+TOTAL OBJECTIVE: 22830.0
+TOTAL TIME: 5.766890048980713
+---------------------------
+ID: 38840 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	21154.44	1.24	7	21	3	18616	 17400
+2	22326.5	1.38	16	12	3	20158	 17400
+3	22830.0	1.62	28	0	0	21700	 17400
+TOTAL OBJECTIVE: 22830.0
+TOTAL TIME: 4.971301078796387
+---------------------------
+ID: 38840 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.8
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	21154.44	1.13	8	20	4	18616	 17400
+2	22296.69	2.17	19	9	3	20672	 17400
+3	22830.0	2.12	28	0	0	22214	 17400
+TOTAL OBJECTIVE: 22830.0
+TOTAL TIME: 6.04593300819397
+---------------------------
+ID: 38840 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.99999
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	21154.44	0.95	5	23	4	18616	 17400
+2	22326.5	2.1	16	12	3	20672	 17400
+3	22830.0	1.79	28	0	0	22214	 17400
+TOTAL OBJECTIVE: 22830.0
+TOTAL TIME: 5.495102882385254
+---------------------------
+ID: 77207 STRATEGY: AddAll TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	30725.76	1.81	3	25	25	18616	 17400
+2	31385.01	16.45	31	25	0	31466	 17400
+TOTAL OBJECTIVE: 31385.01
+TOTAL TIME: 18.755768060684204
+---------------------------
+ID: 77207 STRATEGY:  AddFirstK, k = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	30725.76	1.11	0	6	6	18616	 17400
+2	30988.03	1.9	11	6	6	21700	 17400
+3	31141.63	4.52	14	5	5	24784	 17400
+4	31225.28	5.5	24	1	1	27354	 17400
+5	31282.64	5.35	25	1	1	27868	 17400
+6	31324.81	4.04	26	1	1	28382	 17400
+7	31354.39	3.79	27	1	1	28896	 17400
+8	31385.01	2.33	28	0	0	29410	 17400
+TOTAL OBJECTIVE: 31385.01
+TOTAL TIME: 30.015358924865723
+---------------------------
+ID: 77207 STRATEGY:  AddFirstK, k = 1 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	30725.76	1.1	0	2	2	18616	 17400
+2	30969.2	0.97	3	2	2	19644	 17400
+3	31102.78	0.87	6	2	2	20672	 17400
+4	31188.26	1.14	10	2	2	21700	 17400
+5	31254.87	1.41	12	2	2	22728	 17400
+6	31310.64	1.18	14	2	2	23756	 17400
+7	31354.32	1.77	27	1	1	24784	 17400
+8	31385.01	1.46	28	0	0	25298	 17400
+TOTAL OBJECTIVE: 31385.01
+TOTAL TIME: 10.832149028778076
+---------------------------
+ID: 77207 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	30725.76	1.11	3	25	3	18616	 17400
+2	30982.14	1.07	12	16	3	20158	 17400
+3	31105.07	1.4	17	11	2	21700	 17400
+4	31200.89	1.58	21	7	2	22728	 17400
+5	31277.75	1.35	25	3	3	23756	 17400
+6	31385.01	2.85	28	0	0	25298	 17400
+TOTAL OBJECTIVE: 31385.01
+TOTAL TIME: 10.648153066635132
+---------------------------
+ID: 77207 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.8
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	30725.76	1.1	11	17	3	18616	 17400
+2	30982.14	1.09	16	12	2	20158	 17400
+3	31089.05	1.03	18	10	3	21186	 17400
+4	31192.5	1.64	21	7	1	22728	 17400
+5	31274.03	1.54	24	4	4	23242	 17400
+6	31385.01	3.41	28	0	0	25298	 17400
+TOTAL OBJECTIVE: 31385.01
+TOTAL TIME: 11.111234903335571
+---------------------------
+ID: 77207 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.99999
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	30725.76	1.11	3	25	3	18616	 17400
+2	30982.14	1.06	5	23	4	20158	 17400
+3	31098.14	1.58	11	17	3	22214	 17400
+4	31213.05	2.95	14	14	4	23756	 17400
+5	31275.61	2.95	22	6	3	25812	 17400
+6	31324.67	3.84	26	2	2	27354	 17400
+7	31385.01	3.68	28	0	0	28382	 17400
+TOTAL OBJECTIVE: 31385.01
+TOTAL TIME: 18.707382202148438
+---------------------------
+ID: 240 STRATEGY: AddAll TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	23631.23	2.18	7	21	21	18616	 17400
+2	24726.81	15.53	35	21	0	29410	 17400
+TOTAL OBJECTIVE: 24726.81
+TOTAL TIME: 18.288959980010986
+---------------------------
+ID: 240 STRATEGY:  AddFirstK, k = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	23631.23	2.0	0	6	6	18616	 17400
+2	24643.05	3.28	8	6	6	21700	 17400
+3	24714.83	4.63	28	0	0	24784	 17400
+TOTAL OBJECTIVE: 24714.83
+TOTAL TIME: 10.309648990631104
+---------------------------
+ID: 240 STRATEGY:  AddFirstK, k = 1 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	23631.23	1.09	0	2	2	18616	 17400
+2	24329.73	1.47	2	2	2	19644	 17400
+3	24421.43	1.41	5	2	2	20672	 17400
+4	24686.45	1.96	11	2	2	21700	 17400
+5	24713.04	1.27	13	2	2	22728	 17400
+6	24714.14	1.03	19	2	2	23756	 17400
+7	24717.6	1.18	21	2	2	24784	 17400
+8	24725.95	2.33	28	0	0	25812	 17400
+TOTAL OBJECTIVE: 24725.95
+TOTAL TIME: 12.705343008041382
+---------------------------
+ID: 240 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	23631.23	1.1	7	21	3	18616	 17400
+2	24649.61	1.97	15	13	3	20158	 17400
+3	24716.98	1.55	27	1	1	21700	 17400
+4	24726.77	0.75	28	0	0	22214	 17400
+TOTAL OBJECTIVE: 24726.77
+TOTAL TIME: 6.272727012634277
+---------------------------
+ID: 240 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.8
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	23631.23	1.09	9	19	3	18616	 17400
+2	24649.61	2.18	21	7	2	20158	 17400
+3	24716.91	2.05	28	0	0	21186	 17400
+TOTAL OBJECTIVE: 24716.91
+TOTAL TIME: 5.979038953781128
+---------------------------
+ID: 240 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.99999
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	23631.23	1.12	1	27	4	18616	 17400
+2	24674.78	2.66	10	18	4	20672	 17400
+3	24705.32	2.5	12	16	3	22728	 17400
+4	24724.92	3.04	24	4	4	24270	 17400
+5	24726.81	1.47	28	0	0	26326	 17400
+TOTAL OBJECTIVE: 24726.81
+TOTAL TIME: 11.9042489528656
+---------------------------
+ID: 781 STRATEGY: AddAll TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	21090.0	0.96	13	15	15	18616	 17400
+2	22611.7	7.56	41	15	0	26326	 17400
+TOTAL OBJECTIVE: 22611.7
+TOTAL TIME: 9.868403196334839
+---------------------------
+ID: 781 STRATEGY:  AddFirstK, k = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	21090.0	1.19	2	6	6	18616	 17400
+2	22584.32	2.98	15	6	6	21700	 17400
+3	22611.7	1.7	28	0	0	24784	 17400
+TOTAL OBJECTIVE: 22611.7
+TOTAL TIME: 6.338296175003052
+---------------------------
+ID: 781 STRATEGY:  AddFirstK, k = 1 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	21090.0	1.1	0	2	2	18616	 17400
+2	22453.37	1.55	5	2	2	19644	 17400
+3	22560.59	0.76	8	2	2	20672	 17400
+4	22608.78	0.76	28	0	0	21700	 17400
+TOTAL OBJECTIVE: 22608.78
+TOTAL TIME: 4.544747829437256
+---------------------------
+ID: 781 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	21090.0	1.0	13	15	3	18616	 17400
+2	22593.4	3.66	21	7	2	20158	 17400
+3	22611.7	0.43	28	0	0	21186	 17400
+TOTAL OBJECTIVE: 22611.7
+TOTAL TIME: 5.721605062484741
+---------------------------
+ID: 781 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.8
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	21090.0	1.0	13	15	3	18616	 17400
+2	22593.4	2.38	28	0	0	20158	 17400
+TOTAL OBJECTIVE: 22593.4
+TOTAL TIME: 3.802159070968628
+---------------------------
+ID: 781 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.99999
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	21090.0	1.05	13	15	3	18616	 17400
+2	22593.4	1.98	18	10	2	20158	 17400
+3	22611.7	0.4	28	0	0	21186	 17400
+TOTAL OBJECTIVE: 22611.7
+TOTAL TIME: 4.057556867599487
+---------------------------
+ID: 13513 STRATEGY: AddAll TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	20604.97	1.07	8	20	20	18616	 17400
+2	21909.36	18.01	36	20	0	28896	 17400
+TOTAL OBJECTIVE: 21909.36
+TOTAL TIME: 19.6090030670166
+---------------------------
+ID: 13513 STRATEGY:  AddFirstK, k = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	20604.97	1.3	1	6	6	18616	 17400
+2	21697.54	4.95	7	6	6	21700	 17400
+3	21863.51	5.61	20	3	3	24784	 17400
+4	21896.22	5.1	28	0	0	26326	 17400
+TOTAL OBJECTIVE: 21896.22
+TOTAL TIME: 17.56565809249878
+---------------------------
+ID: 13513 STRATEGY:  AddFirstK, k = 1 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	20604.97	1.08	0	2	2	18616	 17400
+2	20815.35	0.85	3	2	2	19644	 17400
+3	21280.07	2.24	5	2	2	20672	 17400
+4	21685.98	4.41	7	2	2	21700	 17400
+5	21803.07	3.39	9	2	2	22728	 17400
+6	21851.55	3.57	11	2	2	23756	 17400
+7	21904.25	3.67	28	0	0	24784	 17400
+TOTAL OBJECTIVE: 21904.25
+TOTAL TIME: 19.894983053207397
+---------------------------
+ID: 13513 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	20604.97	1.5	8	20	4	18616	 17400
+2	21811.79	3.1	15	13	3	20672	 17400
+3	21889.51	2.09	26	2	2	22214	 17400
+4	21908.89	1.2	28	0	0	23242	 17400
+TOTAL OBJECTIVE: 21908.89
+TOTAL TIME: 8.753357172012329
+---------------------------
+ID: 13513 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.8
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	20604.97	1.08	8	20	4	18616	 17400
+2	21811.79	2.93	22	6	2	20672	 17400
+3	21878.44	1.64	28	0	0	21700	 17400
+TOTAL OBJECTIVE: 21878.44
+TOTAL TIME: 6.355413198471069
+---------------------------
+ID: 13513 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.99999
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	20604.97	1.29	8	20	4	18616	 17400
+2	21811.79	3.16	8	20	3	20672	 17400
+3	21889.51	2.2	18	10	3	22214	 17400
+4	21908.29	1.77	16	12	2	23756	 17400
+5	21909.36	0.55	25	3	3	24784	 17400
+6	21909.46	0.9	28	0	0	26326	 17400
+TOTAL OBJECTIVE: 21909.46
+TOTAL TIME: 11.210850954055786
+---------------------------
+ID: 75978 STRATEGY: AddAll TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	34835.52	1.08	16	12	12	18616	 17400
+2	34894.2	1.39	44	12	0	24784	 17400
+TOTAL OBJECTIVE: 34894.2
+TOTAL TIME: 2.9799840450286865
+---------------------------
+ID: 75978 STRATEGY:  AddFirstK, k = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	34835.52	2.3	7	5	5	18616	 17400
+2	34894.2	0.77	28	0	0	21186	 17400
+TOTAL OBJECTIVE: 34894.2
+TOTAL TIME: 3.38576602935791
+---------------------------
+ID: 75978 STRATEGY:  AddFirstK, k = 1 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	34835.52	2.05	3	2	2	18616	 17400
+2	34888.1	0.46	5	2	2	19644	 17400
+3	34894.2	0.24	28	0	0	20672	 17400
+TOTAL OBJECTIVE: 34894.2
+TOTAL TIME: 3.112926959991455
+---------------------------
+ID: 75978 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	34835.52	1.8	16	12	2	18616	 17400
+2	34894.2	0.4	28	0	0	19644	 17400
+TOTAL OBJECTIVE: 34894.2
+TOTAL TIME: 2.62420392036438
+---------------------------
+ID: 75978 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.8
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	34835.52	1.49	16	12	2	18616	 17400
+2	34894.2	0.38	28	0	0	19644	 17400
+TOTAL OBJECTIVE: 34894.2
+TOTAL TIME: 2.3010120391845703
+---------------------------
+ID: 75978 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.99999
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	34835.52	1.05	16	12	2	18616	 17400
+2	34894.2	0.37	28	0	0	19644	 17400
+TOTAL OBJECTIVE: 34894.2
+TOTAL TIME: 1.8401541709899902
+---------------------------
+ID: 90677 STRATEGY: AddAll TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	22066.84	1.0	3	25	25	18616	 17400
+2	23075.53	10.92	31	25	0	31466	 17400
+TOTAL OBJECTIVE: 23075.53
+TOTAL TIME: 12.458340883255005
+---------------------------
+ID: 90677 STRATEGY:  AddFirstK, k = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	22066.84	0.98	0	6	6	18616	 17400
+2	23013.73	2.64	16	5	5	21700	 17400
+3	23075.53	2.0	28	0	0	24270	 17400
+TOTAL OBJECTIVE: 23075.53
+TOTAL TIME: 6.078354835510254
+---------------------------
+ID: 90677 STRATEGY:  AddFirstK, k = 1 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	22066.84	1.02	0	2	2	18616	 17400
+2	22229.25	0.67	3	2	2	19644	 17400
+3	22841.93	1.27	7	2	2	20672	 17400
+4	22872.9	0.73	9	2	2	21700	 17400
+5	23033.92	1.31	11	2	2	22728	 17400
+6	23049.21	0.77	14	2	2	23756	 17400
+7	23059.05	1.29	18	2	2	24784	 17400
+8	23075.53	1.09	28	0	0	25812	 17400
+TOTAL OBJECTIVE: 23075.53
+TOTAL TIME: 8.999847173690796
+---------------------------
+ID: 90677 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	22066.84	0.99	3	25	4	18616	 17400
+2	23012.99	1.85	18	10	2	20672	 17400
+3	23039.33	0.62	19	9	3	21700	 17400
+4	23071.97	1.54	28	0	0	23242	 17400
+TOTAL OBJECTIVE: 23071.97
+TOTAL TIME: 5.847161054611206
+---------------------------
+ID: 90677 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.8
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	22066.84	1.0	9	19	4	18616	 17400
+2	23027.34	1.88	23	5	5	20672	 17400
+3	23073.24	1.43	28	0	0	23242	 17400
+TOTAL OBJECTIVE: 23073.24
+TOTAL TIME: 4.9406208992004395
+---------------------------
+ID: 90677 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.99999
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	22066.84	0.99	3	25	4	18616	 17400
+2	23012.99	1.84	13	15	3	20672	 17400
+3	23071.08	1.49	19	9	2	22214	 17400
+4	23075.53	0.47	28	0	0	23242	 17400
+TOTAL OBJECTIVE: 23075.53
+TOTAL TIME: 5.641780138015747
+---------------------------
+ID: 18061 STRATEGY: AddAll TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	24182.51	1.14	3	25	25	18616	 17400
+2	25871.94	25.26	31	25	0	31466	 17400
+TOTAL OBJECTIVE: 25871.94
+TOTAL TIME: 26.898590803146362
+---------------------------
+ID: 18061 STRATEGY:  AddFirstK, k = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	24182.51	1.3	0	6	6	18616	 17400
+2	25530.08	3.33	11	5	5	21700	 17400
+3	25772.79	3.73	24	1	1	24270	 17400
+4	25862.18	3.89	28	0	0	24784	 17400
+TOTAL OBJECTIVE: 25862.18
+TOTAL TIME: 12.916807889938354
+---------------------------
+ID: 18061 STRATEGY:  AddFirstK, k = 1 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	24182.51	1.27	0	2	2	18616	 17400
+2	24483.63	0.7	3	2	2	19644	 17400
+3	25284.57	2.18	5	2	2	20672	 17400
+4	25651.83	1.71	7	2	2	21700	 17400
+5	25762.43	1.96	10	2	2	22728	 17400
+6	25867.06	3.27	28	0	0	23756	 17400
+TOTAL OBJECTIVE: 25867.06
+TOTAL TIME: 11.68687105178833
+---------------------------
+ID: 18061 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	24182.51	1.58	3	25	4	18616	 17400
+2	25712.91	3.41	11	17	3	20672	 17400
+3	25787.57	1.35	24	4	4	22214	 17400
+4	25870.08	2.36	28	0	0	24270	 17400
+TOTAL OBJECTIVE: 25870.08
+TOTAL TIME: 10.503010988235474
+---------------------------
+ID: 18061 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.8
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	24182.51	1.2	6	22	4	18616	 17400
+2	25690.32	2.5	25	3	3	20672	 17400
+3	25802.63	1.44	26	2	2	22214	 17400
+4	25840.69	1.73	28	0	0	23242	 17400
+TOTAL OBJECTIVE: 25840.69
+TOTAL TIME: 7.780265808105469
+---------------------------
+ID: 18061 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.99999
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	24182.51	1.19	3	25	4	18616	 17400
+2	25712.91	2.78	10	18	3	20672	 17400
+3	25787.57	1.36	15	13	4	22214	 17400
+4	25837.41	2.22	21	7	3	24270	 17400
+5	25871.94	3.14	28	0	0	25812	 17400
+TOTAL OBJECTIVE: 25871.94
+TOTAL TIME: 11.83703899383545
+---------------------------
+ID: 3780 STRATEGY: AddAll TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	21631.49	1.27	5	23	23	18616	 17400
+2	25402.63	27.82	33	23	0	30438	 17400
+TOTAL OBJECTIVE: 25402.63
+TOTAL TIME: 29.646300077438354
+---------------------------
+ID: 3780 STRATEGY:  AddFirstK, k = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	21631.49	1.25	2	6	6	18616	 17400
+2	24801.28	5.3	8	6	6	21700	 17400
+3	24974.28	4.22	16	4	4	24784	 17400
+4	25168.51	7.44	23	3	3	26840	 17400
+5	25207.55	4.99	24	2	2	28382	 17400
+6	25325.34	8.23	27	1	1	29410	 17400
+7	25402.63	9.99	28	0	0	29924	 17400
+TOTAL OBJECTIVE: 25402.63
+TOTAL TIME: 42.65754699707031
+---------------------------
+ID: 3780 STRATEGY:  AddFirstK, k = 1 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	21631.49	1.26	0	2	2	18616	 17400
+2	23989.69	3.3	2	2	2	19644	 17400
+3	24150.95	2.02	5	2	2	20672	 17400
+4	24686.84	2.92	8	2	2	21700	 17400
+5	24786.07	1.9	10	2	2	22728	 17400
+6	24980.75	3.88	13	2	2	23756	 17400
+7	25226.29	6.17	15	2	2	24784	 17400
+8	25329.37	5.58	18	2	2	25812	 17400
+9	25367.14	4.2	23	2	2	26840	 17400
+10	25396.99	4.06	28	0	0	27868	 17400
+TOTAL OBJECTIVE: 25396.99
+TOTAL TIME: 36.483113050460815
+---------------------------
+ID: 3780 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	21631.49	1.21	5	23	4	18616	 17400
+2	24129.05	2.62	9	19	4	20672	 17400
+3	25065.26	5.06	16	12	3	22728	 17400
+4	25289.53	4.17	26	2	2	24270	 17400
+5	25373.21	3.34	26	2	2	25298	 17400
+6	25389.37	2.2	28	0	0	26326	 17400
+TOTAL OBJECTIVE: 25389.37
+TOTAL TIME: 19.96314287185669
+---------------------------
+ID: 3780 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.8
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	21631.49	1.47	5	23	4	18616	 17400
+2	24129.05	2.58	10	18	4	20672	 17400
+3	25065.17	5.16	23	5	5	22728	 17400
+4	25371.81	5.13	28	0	0	25298	 17400
+TOTAL OBJECTIVE: 25371.81
+TOTAL TIME: 15.235816955566406
+---------------------------
+ID: 3780 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.99999
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	21631.49	1.2	5	23	4	18616	 17400
+2	24129.05	2.56	6	22	4	20672	 17400
+3	25111.96	4.85	15	13	3	22728	 17400
+4	25352.74	4.54	20	8	2	24270	 17400
+5	25389.43	2.2	25	3	3	25298	 17400
+6	25402.59	3.76	26	2	2	26840	 17400
+7	25402.63	0.62	28	0	0	27868	 17400
+TOTAL OBJECTIVE: 25402.63
+TOTAL TIME: 21.281108140945435
+---------------------------
+ID: 22445 STRATEGY: AddAll TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	28963.37	1.1	6	22	22	18616	 17400
+2	31383.79	18.89	34	22	0	29924	 17400
+TOTAL OBJECTIVE: 31383.79
+TOTAL TIME: 20.51523995399475
+---------------------------
+ID: 22445 STRATEGY:  AddFirstK, k = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	28963.37	1.07	3	6	6	18616	 17400
+2	31310.84	3.94	11	6	6	21700	 17400
+3	31383.79	2.49	28	0	0	24784	 17400
+TOTAL OBJECTIVE: 31383.79
+TOTAL TIME: 7.973767995834351
+---------------------------
+ID: 22445 STRATEGY:  AddFirstK, k = 1 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	28963.37	1.1	3	2	2	18616	 17400
+2	29720.62	1.78	1	2	2	19644	 17400
+3	29808.09	1.01	5	2	2	20672	 17400
+4	30567.0	2.56	7	2	2	21700	 17400
+5	30991.49	3.19	9	2	2	22728	 17400
+6	31318.69	5.64	11	2	2	23756	 17400
+7	31339.75	1.92	28	0	0	24784	 17400
+TOTAL OBJECTIVE: 31339.75
+TOTAL TIME: 17.92615008354187
+---------------------------
+ID: 22445 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	28963.37	1.79	6	22	4	18616	 17400
+2	31058.17	2.54	19	9	2	20672	 17400
+3	31263.25	1.25	23	5	5	21700	 17400
+4	31383.79	2.89	28	0	0	24270	 17400
+TOTAL OBJECTIVE: 31383.79
+TOTAL TIME: 9.361994981765747
+---------------------------
+ID: 22445 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.8
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	28963.37	1.1	6	22	4	18616	 17400
+2	31058.17	2.53	19	9	2	20672	 17400
+3	31263.25	1.27	23	5	5	21700	 17400
+4	31383.79	2.92	28	0	0	24270	 17400
+TOTAL OBJECTIVE: 31383.79
+TOTAL TIME: 8.72446608543396
+---------------------------
+ID: 22445 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.99999
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	28963.37	1.24	6	22	4	18616	 17400
+2	31058.17	2.57	19	9	2	20672	 17400
+3	31263.25	1.21	23	5	5	21700	 17400
+4	31383.79	2.88	28	0	0	24270	 17400
+TOTAL OBJECTIVE: 31383.79
+TOTAL TIME: 8.763429164886475
+---------------------------
+ID: 0 STRATEGY: AddAll TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	19739.89	0.9	8	20	20	18616	 17400
+2	19786.05	3.26	36	20	0	28896	 17400
+TOTAL OBJECTIVE: 19786.05
+TOTAL TIME: 4.678419828414917
+---------------------------
+ID: 0 STRATEGY:  AddFirstK, k = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	19739.89	0.88	1	6	6	18616	 17400
+2	19786.05	0.95	28	0	0	21700	 17400
+TOTAL OBJECTIVE: 19786.05
+TOTAL TIME: 2.114013910293579
+---------------------------
+ID: 0 STRATEGY:  AddFirstK, k = 1 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	19739.89	0.88	0	2	2	18616	 17400
+2	19768.13	0.41	3	2	2	19644	 17400
+3	19783.36	0.58	10	2	2	20672	 17400
+4	19786.05	0.4	28	0	0	21700	 17400
+TOTAL OBJECTIVE: 19786.05
+TOTAL TIME: 2.6802799701690674
+---------------------------
+ID: 0 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	19739.89	0.88	8	20	3	18616	 17400
+2	19785.77	0.58	28	0	0	20158	 17400
+TOTAL OBJECTIVE: 19785.77
+TOTAL TIME: 1.8856430053710938
+---------------------------
+ID: 0 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.8
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	19739.89	0.89	8	20	3	18616	 17400
+2	19785.77	0.58	28	0	0	20158	 17400
+TOTAL OBJECTIVE: 19785.77
+TOTAL TIME: 1.910757064819336
+---------------------------
+ID: 0 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.99999
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	19739.89	0.9	8	20	3	18616	 17400
+2	19785.77	0.58	17	11	2	20158	 17400
+3	19786.05	0.19	28	0	0	21186	 17400
+TOTAL OBJECTIVE: 19786.05
+TOTAL TIME: 2.3000988960266113
+---------------------------
+ID: 45563 STRATEGY: AddAll TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	16519.66	0.97	9	19	19	18616	 17400
+2	17579.96	9.59	37	19	0	28382	 17400
+TOTAL OBJECTIVE: 17579.96
+TOTAL TIME: 11.03875994682312
+---------------------------
+ID: 45563 STRATEGY:  AddFirstK, k = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	16519.66	0.99	1	6	6	18616	 17400
+2	17579.72	2.83	28	0	0	21700	 17400
+TOTAL OBJECTIVE: 17579.72
+TOTAL TIME: 4.099452972412109
+---------------------------
+ID: 45563 STRATEGY:  AddFirstK, k = 1 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	16519.66	1.08	0	2	2	18616	 17400
+2	17386.07	1.39	3	2	2	19644	 17400
+3	17438.51	0.74	3	2	2	20672	 17400
+4	17476.58	0.68	6	2	2	21700	 17400
+5	17574.78	1.79	28	0	0	22728	 17400
+TOTAL OBJECTIVE: 17574.78
+TOTAL TIME: 6.07818603515625
+---------------------------
+ID: 45563 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	16519.66	0.99	9	19	3	18616	 17400
+2	17558.21	1.88	20	8	2	20158	 17400
+3	17579.96	0.65	28	0	0	21186	 17400
+TOTAL OBJECTIVE: 17579.96
+TOTAL TIME: 4.9792258739471436
+---------------------------
+ID: 45563 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.8
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	16519.66	1.07	11	17	4	18616	 17400
+2	17579.9	2.19	28	0	0	20672	 17400
+TOTAL OBJECTIVE: 17579.9
+TOTAL TIME: 3.7052388191223145
+---------------------------
+ID: 45563 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.99999
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	16519.66	0.97	9	19	3	18616	 17400
+2	17558.21	1.81	14	14	3	20158	 17400
+3	17579.96	0.9	28	0	0	21700	 17400
+TOTAL OBJECTIVE: 17579.96
+TOTAL TIME: 4.3222339153289795
+---------------------------
+ID: 99260 STRATEGY: AddAll TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	17046.22	0.93	5	23	23	18616	 17400
+2	17471.4	8.23	33	23	0	30438	 17400
+TOTAL OBJECTIVE: 17471.4
+TOTAL TIME: 9.703862190246582
+---------------------------
+ID: 99260 STRATEGY:  AddFirstK, k = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	17046.22	0.93	1	6	6	18616	 17400
+2	17389.64	2.71	8	6	6	21700	 17400
+3	17471.4	2.34	28	0	0	24784	 17400
+TOTAL OBJECTIVE: 17471.4
+TOTAL TIME: 6.396623134613037
+---------------------------
+ID: 99260 STRATEGY:  AddFirstK, k = 1 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	17046.22	0.94	1	2	2	18616	 17400
+2	17231.63	0.9	7	2	2	19644	 17400
+3	17347.4	1.01	6	2	2	20672	 17400
+4	17457.81	1.7	2	2	2	21700	 17400
+5	17471.4	0.99	28	0	0	22728	 17400
+TOTAL OBJECTIVE: 17471.4
+TOTAL TIME: 6.010312080383301
+---------------------------
+ID: 99260 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	17046.22	0.94	5	23	4	18616	 17400
+2	17350.95	1.48	19	9	2	20672	 17400
+3	17471.4	1.62	28	0	0	21700	 17400
+TOTAL OBJECTIVE: 17471.4
+TOTAL TIME: 4.672727823257446
+---------------------------
+ID: 99260 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.8
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	17046.22	0.93	8	20	3	18616	 17400
+2	17310.11	1.51	8	20	4	20158	 17400
+3	17470.07	2.24	28	0	0	22214	 17400
+TOTAL OBJECTIVE: 17470.07
+TOTAL TIME: 5.338603973388672
+---------------------------
+ID: 99260 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.99999
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	17046.22	0.92	5	23	4	18616	 17400
+2	17350.95	1.5	16	12	3	20672	 17400
+3	17462.8	1.81	19	9	2	22214	 17400
+4	17471.4	0.82	28	0	0	23242	 17400
+TOTAL OBJECTIVE: 17471.4
+TOTAL TIME: 5.908178806304932
+---------------------------
+ID: 85079 STRATEGY: AddAll TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	25239.54	0.84	16	12	12	18616	 17400
+2	25418.12	2.94	44	12	0	24784	 17400
+TOTAL OBJECTIVE: 25418.12
+TOTAL TIME: 4.29208779335022
+---------------------------
+ID: 85079 STRATEGY:  AddFirstK, k = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	25239.54	0.99	6	4	4	18616	 17400
+2	25407.36	1.11	19	6	6	20672	 17400
+3	25418.12	1.51	28	0	0	23756	 17400
+TOTAL OBJECTIVE: 25418.12
+TOTAL TIME: 4.120863914489746
+---------------------------
+ID: 85079 STRATEGY:  AddFirstK, k = 1 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	25239.54	1.38	0	2	2	18616	 17400
+2	25319.39	0.57	8	2	2	19644	 17400
+3	25407.36	0.89	11	2	2	20672	 17400
+4	25418.12	0.45	28	0	0	21700	 17400
+TOTAL OBJECTIVE: 25418.12
+TOTAL TIME: 3.7488560676574707
+---------------------------
+ID: 85079 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	25239.54	0.89	16	12	2	18616	 17400
+2	25418.12	0.64	28	0	0	19644	 17400
+TOTAL OBJECTIVE: 25418.12
+TOTAL TIME: 1.9500269889831543
+---------------------------
+ID: 85079 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.8
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	25239.54	0.85	21	7	2	18616	 17400
+2	25418.12	0.77	28	0	0	19644	 17400
+TOTAL OBJECTIVE: 25418.12
+TOTAL TIME: 2.043572187423706
+---------------------------
+ID: 85079 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.99999
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	25239.54	0.84	11	17	2	18616	 17400
+2	25418.12	0.8	28	0	0	19644	 17400
+TOTAL OBJECTIVE: 25418.12
+TOTAL TIME: 2.086444854736328
+---------------------------
+ID: 7654 STRATEGY: AddAll TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	26351.84	1.14	3	25	25	18616	 17400
+2	26867.38	13.45	31	25	0	31466	 17400
+TOTAL OBJECTIVE: 26867.38
+TOTAL TIME: 15.083472967147827
+---------------------------
+ID: 7654 STRATEGY:  AddFirstK, k = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	26351.84	1.14	1	6	6	18616	 17400
+2	26817.24	2.8	13	5	5	21700	 17400
+3	26867.38	3.33	28	0	0	24270	 17400
+TOTAL OBJECTIVE: 26867.38
+TOTAL TIME: 7.786418199539185
+---------------------------
+ID: 7654 STRATEGY:  AddFirstK, k = 1 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	26351.84	1.16	0	2	2	18616	 17400
+2	26531.27	0.99	3	2	2	19644	 17400
+3	26575.1	1.21	5	2	2	20672	 17400
+4	26865.31	3.03	28	0	0	21700	 17400
+TOTAL OBJECTIVE: 26865.31
+TOTAL TIME: 6.748228073120117
+---------------------------
+ID: 7654 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	26351.84	1.92	3	25	4	18616	 17400
+2	26795.81	3.35	14	14	3	20672	 17400
+3	26867.38	1.9	28	0	0	22214	 17400
+TOTAL OBJECTIVE: 26867.38
+TOTAL TIME: 7.845784902572632
+---------------------------
+ID: 7654 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.8
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	26351.84	1.15	8	20	3	18616	 17400
+2	26796.04	1.96	28	0	0	20158	 17400
+TOTAL OBJECTIVE: 26796.04
+TOTAL TIME: 3.545820951461792
+---------------------------
+ID: 7654 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.99999
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	26351.84	1.13	2	26	4	18616	 17400
+2	26795.81	3.48	7	21	3	20672	 17400
+3	26862.43	2.41	19	9	3	22214	 17400
+4	26867.37	0.99	28	0	0	23756	 17400
+TOTAL OBJECTIVE: 26867.37
+TOTAL TIME: 8.913653135299683
+---------------------------
+ID: 61565 STRATEGY: AddAll TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	19922.79	1.94	5	23	23	18616	 17400
+2	21267.46	16.04	33	23	0	30438	 17400
+TOTAL OBJECTIVE: 21267.46
+TOTAL TIME: 18.4970600605011
+---------------------------
+ID: 61565 STRATEGY:  AddFirstK, k = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	19922.79	2.0	0	6	6	18616	 17400
+2	20655.97	2.8	10	6	6	21700	 17400
+3	20955.53	5.44	14	6	6	24784	 17400
+4	21138.25	8.48	22	3	3	27868	 17400
+5	21267.46	5.98	28	0	0	29410	 17400
+TOTAL OBJECTIVE: 21267.46
+TOTAL TIME: 25.570183038711548
+---------------------------
+ID: 61565 STRATEGY:  AddFirstK, k = 1 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	19922.79	0.97	0	2	2	18616	 17400
+2	20142.41	0.85	6	2	2	19644	 17400
+3	20619.81	1.62	10	2	2	20672	 17400
+4	20664.81	0.64	12	2	2	21700	 17400
+5	20675.44	0.55	14	2	2	22728	 17400
+6	20874.44	2.35	16	2	2	23756	 17400
+7	20971.69	1.78	21	2	2	24784	 17400
+8	21233.35	6.35	26	2	2	25812	 17400
+9	21267.46	1.69	28	0	0	26840	 17400
+TOTAL OBJECTIVE: 21267.46
+TOTAL TIME: 17.985657930374146
+---------------------------
+ID: 61565 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	19922.79	0.96	5	23	4	18616	 17400
+2	20718.55	2.46	18	10	2	20672	 17400
+3	20986.99	1.9	20	8	2	21700	 17400
+4	21111.1	1.89	23	5	5	22728	 17400
+5	21267.46	3.7	28	0	0	25298	 17400
+TOTAL OBJECTIVE: 21267.46
+TOTAL TIME: 11.989978075027466
+---------------------------
+ID: 61565 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.8
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	19922.79	0.98	5	23	4	18616	 17400
+2	20718.55	2.14	18	10	2	20672	 17400
+3	20986.99	1.86	24	4	4	21700	 17400
+4	21267.46	3.24	28	0	0	23756	 17400
+TOTAL OBJECTIVE: 21267.46
+TOTAL TIME: 9.083112001419067
+---------------------------
+ID: 61565 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.99999
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	19922.79	0.97	3	25	4	18616	 17400
+2	20718.55	2.22	10	18	3	20672	 17400
+3	20996.28	2.18	18	10	3	22214	 17400
+4	21128.53	3.29	21	7	3	23756	 17400
+5	21185.09	2.04	23	5	5	25298	 17400
+6	21267.46	2.98	28	0	0	27868	 17400
+TOTAL OBJECTIVE: 21267.46
+TOTAL TIME: 14.974156141281128
+---------------------------
+ID: 89728 STRATEGY: AddAll TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	34122.5	1.59	6	22	22	18616	 17400
+2	34575.93	7.77	34	22	0	29924	 17400
+TOTAL OBJECTIVE: 34575.93
+TOTAL TIME: 9.94666600227356
+---------------------------
+ID: 89728 STRATEGY:  AddFirstK, k = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	34122.5	1.22	2	6	6	18616	 17400
+2	34570.79	1.74	19	5	5	21700	 17400
+3	34574.64	0.52	24	4	4	24270	 17400
+4	34575.93	0.7	28	0	0	26326	 17400
+TOTAL OBJECTIVE: 34575.93
+TOTAL TIME: 6.1044769287109375
+---------------------------
+ID: 89728 STRATEGY:  AddFirstK, k = 1 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	34122.5	1.78	0	2	2	18616	 17400
+2	34291.0	0.36	5	2	2	19644	 17400
+3	34426.79	0.45	3	2	2	20672	 17400
+4	34427.71	0.2	12	2	2	21700	 17400
+5	34570.79	1.13	14	2	2	22728	 17400
+6	34574.64	0.27	16	2	2	23756	 17400
+7	34575.93	0.38	28	0	0	24784	 17400
+TOTAL OBJECTIVE: 34575.93
+TOTAL TIME: 5.333465099334717
+---------------------------
+ID: 89728 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	34122.5	1.82	6	22	4	18616	 17400
+2	34573.36	1.16	20	8	2	20672	 17400
+3	34575.93	0.44	28	0	0	21700	 17400
+TOTAL OBJECTIVE: 34575.93
+TOTAL TIME: 4.124935150146484
+---------------------------
+ID: 89728 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.8
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	34122.5	1.09	6	22	4	18616	 17400
+2	34573.36	1.07	20	8	2	20672	 17400
+3	34575.93	0.32	28	0	0	21700	 17400
+TOTAL OBJECTIVE: 34575.93
+TOTAL TIME: 3.116586923599243
+---------------------------
+ID: 89728 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.99999
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	34122.5	0.94	6	22	4	18616	 17400
+2	34573.36	0.97	20	8	2	20672	 17400
+3	34575.93	0.38	28	0	0	21700	 17400
+TOTAL OBJECTIVE: 34575.93
+TOTAL TIME: 2.96159291267395
+---------------------------
+ID: 14586 STRATEGY: AddAll TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	31175.64	1.14	9	19	19	18616	 17400
+2	31253.09	4.2	37	19	0	28382	 17400
+TOTAL OBJECTIVE: 31253.09
+TOTAL TIME: 5.875665903091431
+---------------------------
+ID: 14586 STRATEGY:  AddFirstK, k = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	31175.64	1.11	4	6	6	18616	 17400
+2	31237.06	1.07	26	2	2	21700	 17400
+3	31241.91	0.62	22	1	1	22728	 17400
+4	31241.91	0.18	23	1	1	23242	 17400
+5	31247.04	0.74	27	1	1	23756	 17400
+6	31247.91	0.36	28	0	0	24270	 17400
+TOTAL OBJECTIVE: 31247.91
+TOTAL TIME: 5.2296788692474365
+---------------------------
+ID: 14586 STRATEGY:  AddFirstK, k = 1 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	31175.64	1.08	1	2	2	18616	 17400
+2	31194.32	0.37	5	2	2	19644	 17400
+3	31206.87	0.4	9	2	2	20672	 17400
+4	31244.98	0.77	14	2	2	21700	 17400
+5	31247.97	0.41	27	1	1	22728	 17400
+6	31251.85	0.38	28	0	0	23242	 17400
+TOTAL OBJECTIVE: 31251.85
+TOTAL TIME: 4.152572154998779
+---------------------------
+ID: 14586 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	31175.64	1.19	9	19	3	18616	 17400
+2	31234.91	0.7	20	8	3	20158	 17400
+3	31240.57	0.55	28	0	0	21700	 17400
+TOTAL OBJECTIVE: 31240.57
+TOTAL TIME: 3.0987961292266846
+---------------------------
+ID: 14586 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.8
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	31175.64	1.08	17	11	2	18616	 17400
+2	31227.47	0.4	28	0	0	19644	 17400
+TOTAL OBJECTIVE: 31227.47
+TOTAL TIME: 1.9035308361053467
+---------------------------
+ID: 14586 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.99999
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	31175.64	1.09	4	24	4	18616	 17400
+2	31241.83	0.76	10	18	3	20672	 17400
+3	31247.58	0.49	12	16	4	22214	 17400
+4	31250.37	0.93	24	4	4	24270	 17400
+5	31252.32	0.92	22	6	2	26326	 17400
+6	31252.38	0.68	23	5	5	27354	 17400
+7	31253.97	2.41	28	0	0	29924	 17400
+TOTAL OBJECTIVE: 31253.97
+TOTAL TIME: 8.853182792663574
+---------------------------
+ID: 77789 STRATEGY: AddAll TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	17111.89	1.05	8	20	20	18616	 17400
+2	17893.97	11.37	36	20	0	28896	 17400
+TOTAL OBJECTIVE: 17893.97
+TOTAL TIME: 12.909026861190796
+---------------------------
+ID: 77789 STRATEGY:  AddFirstK, k = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	17111.89	1.34	7	6	6	18616	 17400
+2	17687.71	3.25	14	6	6	21700	 17400
+3	17884.43	3.74	25	2	2	24784	 17400
+4	17893.97	0.69	28	0	0	25812	 17400
+TOTAL OBJECTIVE: 17893.97
+TOTAL TIME: 9.762241125106812
+---------------------------
+ID: 77789 STRATEGY:  AddFirstK, k = 1 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	17111.89	1.16	3	2	2	18616	 17400
+2	17656.87	1.83	5	2	2	19644	 17400
+3	17816.41	1.55	7	2	2	20672	 17400
+4	17831.74	0.7	13	2	2	21700	 17400
+5	17858.54	1.17	7	2	2	22728	 17400
+6	17866.89	0.73	16	2	2	23756	 17400
+7	17879.13	1.1	25	2	2	24784	 17400
+8	17893.97	1.1	28	0	0	25812	 17400
+TOTAL OBJECTIVE: 17893.97
+TOTAL TIME: 10.340736865997314
+---------------------------
+ID: 77789 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	17111.89	1.51	8	20	4	18616	 17400
+2	17717.13	2.1	15	13	3	20672	 17400
+3	17855.62	1.88	21	7	3	22214	 17400
+4	17875.13	1.11	25	3	3	23756	 17400
+5	17893.97	1.24	28	0	0	25298	 17400
+TOTAL OBJECTIVE: 17893.97
+TOTAL TIME: 8.968860864639282
+---------------------------
+ID: 77789 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.8
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	17111.89	1.04	8	20	4	18616	 17400
+2	17717.13	2.07	17	11	3	20672	 17400
+3	17832.1	1.46	21	7	2	22214	 17400
+4	17860.15	0.92	25	3	3	23242	 17400
+5	17893.97	1.83	28	0	0	24784	 17400
+TOTAL OBJECTIVE: 17893.97
+TOTAL TIME: 8.397422075271606
+---------------------------
+ID: 77789 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.99999
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	17111.89	1.02	5	23	4	18616	 17400
+2	17757.11	2.12	11	17	4	20672	 17400
+3	17856.12	1.91	22	6	2	22728	 17400
+4	17875.13	1.24	25	3	3	23756	 17400
+5	17893.97	1.78	28	0	0	25298	 17400
+TOTAL OBJECTIVE: 17893.97
+TOTAL TIME: 9.155280113220215
+---------------------------
+ID: 62102 STRATEGY: AddAll TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	38688.6	1.08	4	24	24	18616	 17400
+2	41111.49	24.39	32	24	0	30952	 17400
+TOTAL OBJECTIVE: 41111.49
+TOTAL TIME: 25.9636549949646
+---------------------------
+ID: 62102 STRATEGY:  AddFirstK, k = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	38688.6	1.11	1	6	6	18616	 17400
+2	40737.12	4.06	11	6	6	21700	 17400
+3	41039.9	6.05	25	2	2	24784	 17400
+4	41111.41	4.11	28	0	0	25812	 17400
+TOTAL OBJECTIVE: 41111.41
+TOTAL TIME: 16.017843008041382
+---------------------------
+ID: 62102 STRATEGY:  AddFirstK, k = 1 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	38688.6	1.09	0	2	2	18616	 17400
+2	39587.24	1.28	2	2	2	19644	 17400
+3	39592.77	0.5	4	2	2	20672	 17400
+4	39706.73	1.44	7	2	2	21700	 17400
+5	40340.08	3.83	9	2	2	22728	 17400
+6	40717.9	3.54	13	2	2	23756	 17400
+7	40810.67	5.05	13	2	2	24784	 17400
+8	40950.93	4.49	18	2	2	25812	 17400
+9	41031.5	6.97	20	2	2	26840	 17400
+10	41086.75	6.43	19	2	2	27868	 17400
+11	41111.49	7.42	28	0	0	28896	 17400
+TOTAL OBJECTIVE: 41111.49
+TOTAL TIME: 43.30060315132141
+---------------------------
+ID: 62102 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	38688.6	1.21	4	24	4	18616	 17400
+2	40735.08	2.96	11	17	4	20672	 17400
+3	40950.5	2.74	22	6	2	22728	 17400
+4	41028.37	1.99	24	4	4	23756	 17400
+5	41086.3	4.18	25	3	3	25812	 17400
+6	41111.49	4.85	28	0	0	27354	 17400
+TOTAL OBJECTIVE: 41111.49
+TOTAL TIME: 19.297945022583008
+---------------------------
+ID: 62102 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.8
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	38688.6	1.07	6	22	4	18616	 17400
+2	40842.84	2.52	17	11	3	20672	 17400
+3	40937.71	1.41	24	4	4	22214	 17400
+4	41107.11	3.02	28	0	0	24270	 17400
+TOTAL OBJECTIVE: 41107.11
+TOTAL TIME: 8.895514965057373
+---------------------------
+ID: 62102 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.99999
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	38688.6	1.09	4	24	4	18616	 17400
+2	40735.08	2.75	7	21	3	20672	 17400
+3	40947.83	1.98	16	12	3	22214	 17400
+4	41108.9	2.65	27	1	1	23756	 17400
+5	41111.46	0.92	22	6	2	24270	 17400
+6	41111.49	0.42	28	0	0	25298	 17400
+TOTAL OBJECTIVE: 41111.49
+TOTAL TIME: 11.08698296546936
+---------------------------
+ID: 87785 STRATEGY: AddAll TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	28842.45	1.06	9	19	19	18616	 17400
+2	33641.62	21.36	32	24	5	28382	 17400
+3	33683.86	6.92	60	24	0	30952	 17400
+TOTAL OBJECTIVE: 33683.86
+TOTAL TIME: 30.086699962615967
+---------------------------
+ID: 87785 STRATEGY:  AddFirstK, k = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	28842.45	1.1	4	5	5	18616	 17400
+2	33259.86	4.71	10	6	6	21186	 17400
+3	33620.11	5.82	21	6	6	24270	 17400
+4	33683.86	5.75	28	0	0	27354	 17400
+TOTAL OBJECTIVE: 33683.86
+TOTAL TIME: 18.026203870773315
+---------------------------
+ID: 87785 STRATEGY:  AddFirstK, k = 1 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	28842.45	1.07	0	2	2	18616	 17400
+2	32137.8	2.49	2	2	2	19644	 17400
+3	32773.85	2.12	4	2	2	20672	 17400
+4	33117.16	2.14	6	2	2	21700	 17400
+5	33326.39	2.45	9	2	2	22728	 17400
+6	33505.35	3.17	14	2	2	23756	 17400
+7	33561.37	2.64	19	2	2	24784	 17400
+8	33591.9	3.31	26	1	1	25812	 17400
+9	33664.41	4.37	28	0	0	26326	 17400
+TOTAL OBJECTIVE: 33664.41
+TOTAL TIME: 24.77144479751587
+---------------------------
+ID: 87785 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	28842.45	1.07	9	19	4	18616	 17400
+2	33307.9	2.76	13	15	4	20672	 17400
+3	33626.02	3.14	23	5	5	22728	 17400
+4	33668.9	2.4	28	0	0	25298	 17400
+TOTAL OBJECTIVE: 33668.9
+TOTAL TIME: 10.261637926101685
+---------------------------
+ID: 87785 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.8
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	28842.45	1.05	9	19	4	18616	 17400
+2	33307.9	2.77	17	11	3	20672	 17400
+3	33605.58	2.62	28	0	0	22214	 17400
+TOTAL OBJECTIVE: 33605.58
+TOTAL TIME: 7.092842102050781
+---------------------------
+ID: 87785 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.99999
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	28842.45	1.09	5	23	4	18616	 17400
+2	33160.13	3.11	6	22	4	20672	 17400
+3	33617.23	4.27	8	20	4	22728	 17400
+4	33658.68	2.85	13	15	3	24784	 17400
+5	33678.21	2.52	16	12	3	26326	 17400
+6	33685.7	4.33	25	3	3	27868	 17400
+7	33685.83	1.47	28	0	0	29410	 17400
+TOTAL OBJECTIVE: 33685.83
+TOTAL TIME: 21.185399055480957
+---------------------------
+ID: 56970 STRATEGY: AddAll TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	26193.01	1.12	12	16	16	18616	 17400
+2	26293.33	5.3	39	17	1	26840	 17400
+3	26302.47	2.3	67	17	0	27354	 17400
+TOTAL OBJECTIVE: 26302.47
+TOTAL TIME: 9.390923023223877
+---------------------------
+ID: 56970 STRATEGY:  AddFirstK, k = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	26193.01	1.12	3	6	6	18616	 17400
+2	26284.2	1.69	18	5	5	21700	 17400
+3	26302.47	1.89	28	0	0	24270	 17400
+TOTAL OBJECTIVE: 26302.47
+TOTAL TIME: 5.183848857879639
+---------------------------
+ID: 56970 STRATEGY:  AddFirstK, k = 1 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	26193.01	1.13	1	2	2	18616	 17400
+2	26234.09	0.77	1	2	2	19644	 17400
+3	26240.19	0.44	6	2	2	20672	 17400
+4	26253.93	0.77	12	2	2	21700	 17400
+5	26281.5	1.33	12	2	2	22728	 17400
+6	26283.5	0.5	19	2	2	23756	 17400
+7	26284.79	0.68	17	2	2	24784	 17400
+8	26302.47	2.67	28	0	0	25812	 17400
+TOTAL OBJECTIVE: 26302.47
+TOTAL TIME: 9.16948914527893
+---------------------------
+ID: 56970 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.9
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	26193.01	1.12	12	16	4	18616	 17400
+2	26284.79	1.06	24	4	4	20672	 17400
+3	26302.36	1.38	28	0	0	22728	 17400
+TOTAL OBJECTIVE: 26302.36
+TOTAL TIME: 4.2024760246276855
+---------------------------
+ID: 56970 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.8
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	26193.01	1.13	12	16	4	18616	 17400
+2	26284.79	1.06	28	0	0	20672	 17400
+TOTAL OBJECTIVE: 26284.79
+TOTAL TIME: 2.6093180179595947
+---------------------------
+ID: 56970 STRATEGY:  AddMatching, minVC = 5 TOLERANCE: -1.99999
+iter 	 currObj 	 currTime 	 satCnt 	 violCnt 	 addedCnt 	 conCnt 	 varCnt 
+1	26193.01	1.13	9	19	4	18616	 17400
+2	26284.79	1.08	24	4	4	20672	 17400
+3	26302.36	1.36	25	3	3	22728	 17400
+4	26302.47	0.35	28	0	0	24270	 17400
+TOTAL OBJECTIVE: 26302.47
+TOTAL TIME: 4.77457594871521
+---------------------------

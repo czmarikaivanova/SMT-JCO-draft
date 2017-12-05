@@ -1,0 +1,20 @@
+set terminal pdfcairo
+set output "cost.pdf"
+set ylabel "Total cost"
+set style fill solid border -1
+set style data histograms
+set key top left
+set yrange [10000:34000]
+set xtics font "Times-Roman, 7" 
+set ytics font "Times-Roman, 7" 
+
+plot "cost.txt" using 2:xtic(1) title "X1" lt rgb "#FFFFFF",\
+     "" using 3 title "F1" lt rgb "#BFBFBF",\
+     "" using 4 title "X1-VI" lt rgb "#CAFFDA",\
+     "" using 5 title "F1-VI" lt rgb "#45D470",\
+     "" using 6 title "X2" lt rgb "#CAE3FF",\
+     "" using 7 title "F2" lt rgb "#5495E1",\
+     "" using 8 title "X2-VI" lt rgb "#FFD2D2",\
+     "" using 9 title "F2-VI" lt rgb "#E15454",\
+     "" using 10 title "X1-IN" lt rgb "#FFFF00"
+

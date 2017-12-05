@@ -1,0 +1,15 @@
+set terminal pdfcairo
+set output "id3-cost.pdf"
+set ylabel "Objective value"
+set style fill solid border -1
+set style data histograms
+set key top left
+set yrange [100:36500]
+set xtics font "Times-Roman, 7" 
+set ytics font "Times-Roman, 7" 
+
+plot "id-basic-cost.data" using 2:xtic(1) title "LP(SMT-X1)" lt rgb "#FFFFFF",\
+     "" using 3 title "LP(SMT-F1)" lt rgb "#B8B8B8",\
+     "" using 4 title "LP(SMT-X1-VI)" lt rgb "#575757",\
+     "" using 5 title "LP(SMT-F1-VI)" lt rgb "#363636",\
+     "" using 6 title "SMT-F1-VI" lt rgb "#000000"

@@ -826,7 +826,7 @@ Models SMT-X2 and SMT-F1-VI are equally strong.
 %\right.
 %\]
 %If some of them are not already implied by constraints in SMTMF, the can be included in the model. The implication is justified by (\ref{eq:tr:fstij}) and (\ref{eq:tr:fijt2}).
-
+\newpage
 \section{Constraint Generation Scheme}
 \label{sec:cg}
 The stronger models SMT-X2-VI and SMT-F2-VI are too large and are therefore not very practical for solving even fairly small instances.  The main idea of how to tackle larger instances and thereby make these model more useful in practice is to solve a relaxation of the model where some of the constraints are omitted. It is assumed that the omitted constraints can often be satisfied in solution of the relaxed problem, without being explicitly included in the model. Relaxed constraints that are violated in the obtained solutions can be dynamically added to the model and the whole process is repeated, until some termination criteria are fulfilled. This approach is known as a \emph{constraint generation scheme}.
@@ -835,10 +835,12 @@ The stronger models SMT-X2-VI and SMT-F2-VI are too large and are therefore not 
 Experimental evaluation from the next section reveals that the valid inequality (\ref{con:vi:sumFImpSumY}) makes this model very strong, in fact it often gives an integral solution. To the contrary, the other valid inequalities rarely improve the LP bounds, and moreover increase the runtime. For these practical reasons, we consider the model SMT-X2+(\ref{con:vi:sumFImpSumY}) for constraint generation. Also note that the shortest runtime is given by solving LP(SMT-X1), and this runtime does not increase much by adding valid inequalities and solving LP(SMT-X1-VI). 
 
 For each $(s,t)\in S$, constraints (\ref{con:mf:flowNormal})-(\ref{con:mf:fcap})form a classical maximum $s-t$ flow formulation which can be solved very quickly. Observe that according to (\ref{con:mf:fcap}), $x^s$ plays the role of a capacitiy vector in the network $G_{x^s}=(V,E,s,t,x^s)$ in which we want to find the size of maximum flow, and thereby verify whether the flow conservation constraints are already satisfied even though they are not explicitly included in the model. The formulation can also be extended by (\ref{con:vi:sumFImpSumY}). Unfortunately, including (\ref{con:mf:fsym}) is slightly problematic here, because it contains variables of different commodity, namely $(t,s)$. It is not possible to simply extend the model by these constraints, because a potential violation of flow conservation for the commodity $(t,s)$ would not be discovered, as there are no corresponding capacity constraints. Nevertheless, this can be easily resolved by combining the two commodities in one maximum flow formulation. Let us consider two distinct destinations $s,t\in D$ and define variables
-\newline\newline
-  $\acute{f}_{ij}\in \left[0,1\right]$ representing the amount of flow of commodity $(s,t)$ carried by arc $(i,j)\in A$ and\newline
-  $\grave{f}_{ij}\in \left[0,1\right]$ representing the amount of flow of commodity $(t,s)$ carried by arc $(i,j)\in A$.
-\newline\newline
+%\newline\newline
+\begin{itemize}
+\item[] $\acute{f}_{ij}\in \left[0,1\right]$ representing the amount of flow of commodity $(s,t)$ carried by arc $(i,j)\in A$, and\newline
+\item[] $\grave{f}_{ij}\in \left[0,1\right]$ representing the amount of flow of commodity $(t,s)$ carried by arc $(i,j)\in A$.
+\end{itemize}
+%\newline\newline
 The extended maximum flow formulation denoted as 2MF is constructed as follows:
 \newline
 \newline  
@@ -847,15 +849,17 @@ The extended maximum flow formulation denoted as 2MF is constructed as follows:
 \label{objective:maxf} \min \sum\limits_{i \in V_t} \acute{f}_{ti} - \sum\limits_{i \in V_t} \acute{f}_{it} &+ \sum\limits_{i \in V_s} \grave{f}_{si} - \sum\limits_{i \in V_s} \grave{f}_{is}  \\ 
 \text{s.t.}    \notag   \\	
  \label{con:maxf:flowNormal}  \sum\limits_{\substack{ j\in V_i}}\acute{f}_{ij}-\sum\limits_{\substack{j\in V_i }}\acute{f}_{ji}    & = 0   \quad \quad\quad \quad\quad \quad\quad 			   i\in V\setminus\{s,t\},\\	
- \label{con:maxf:fcapst}   \acute{f}_{ij} &\leq  x^{s}_{ij}\quad\quad\quad\quad    \quad\quad  (i,j)\in A,  \\ 	
-  \label{con:maxf:fcapst}   \grave{f}_{ij} &\leq  x^{t}_{ij}\quad\quad\quad\quad\quad\quad      (i,j)\in A,  \\ 	
+ \label{con:maxf:fcapst}   \acute{f}_{ij} &\leq  x^{s}_{ij}\quad\quad\quad\quad    \quad\quad  (i,j)\in A,  \\ 	 
+  \label{con:maxf:fcapts}   \grave{f}_{ij} &\leq  x^{t}_{ij}\quad\quad\quad\quad\quad\quad      (i,j)\in A,  \\ 	
+  \label{con:maxf:fsym}   \acute{f}_{ij} &=  \grave{f}_{ji},  \quad\quad \quad\quad   \quad~~(i,j)\in A, \\ 
   \label{con:maxf:sumFImpSumYst} \sum\limits_{i\in V_j, p_{ji}\geq p_{jk}}\acute{f}_{ji} & \leq \sum\limits_{i\in V_j, p_{ji}\geq p_{jk}}  y^{s}_{ji} ~~~~  j,k\in V,\\
   \label{con:maxf:sumFImpSumYts} \sum\limits_{i\in V_j, p_{ji}\geq p_{jk}}\grave{f}_{ji} & \leq \sum\limits_{i\in V_j, p_{ji}\geq p_{jk}}  y^{t}_{ji} ~~~~  j,k\in V.\\
 \label{con:maxf:fdim}	\acute{f}, \grave{f}&\in\left[0,1\right]^{A}. 
 \end{flalign}~
 \end{subequations}  
   
-
+Note that the right-hand sides in (\ref{con:maxf:fcapst})-(\ref{con:maxf:sumFImpSumYts}) are not variables. These values are input data obtained by solving a weaker model. The problem modelled by this formulation can be understood as a maximum 2-commodity network flow, where the source of the first commodity is the target of the second commodity and vice versa. Furthermore, the arcs have different capacities for the two commodities, even though it is required that the amount of one commodity passing through an arc $(i,j)$ equals the amount of the other commodity passing through $(j,i)$.
+ 
 Based on these observations we build the constraint generation procedure. First, we solve LP(SMT-X1-VI) and obtain vectors $x$ and $y$. For each $(s,t)\in S$ we then check whether the constraints (\ref{con:mf:flowNormal})-(\ref{con:mf:fcap}) together with (\ref{con:vi:sumFImpSumY}) can already be satisfied by solving the extended maximum $s-t$ flow model. If $\text{mf}^{st}(G_{x^s})$=1, flow conservation constraints for $(s,t)$ are satisfied, otherwise  we remember $(s,t)$, and after processing all pairs, new flow constraints for violated paris selected according to a certain strategy are added to the original model. This augmented model is again solved and the $s-t$ pairs are again checked for satisfying maximum flow constraints. The whole process is repeated until there are no violated flow constraints for any $s-t$ pair. The algorithm \ref{alg:cg} describes the process formally.
 
 There are various strategies how to determine which of the violated flow constraints will be added to the model. Here we describe those that we considered in the experimental part of this work.

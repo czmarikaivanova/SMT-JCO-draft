@@ -884,10 +884,9 @@ Based on these observations we build the constraint generation procedure. First,
 }
  %$P= \cup_{a\in A} p_a$\;
 }
-\tcc{Select some subset of the violated $\{s,t\}$ pairs according to a give strategy. }
+\tcc{Select some subset of the violated $\{s,t\}$ pairs according to a given strategy. }
 $Q'\subseteq Q$
 }
- $\text{assignToRandomTargets}(D_{available})$\;
  ~\newline
  \caption{Constraint generation}
 \label{alg:cg}
@@ -902,13 +901,18 @@ One of the simplest and most basic strategies adds max-flow constraints of all t
 
 \subsubsection{Add first $k$}
 
-Another simple strategy adds first $k$ found $s-t$ pairs violating the flow constraints. An advantage of this strategy is that it is not necessary to run solve the maximum flow problem for all the $s-t$ pairs. Nevertheless, this does not have very noticeable effect, because solving the maximum-flow problem is very fast. Like in the previous case, this strategy does not exploit the structure of the graph induced by the violated $s-t$pairs.
+Another simple strategy adds first $k$ found $\{s,t\}$ pairs violating the flow constraints. An advantage of this strategy is that it is not necessary to run solve the maximum flow problem for all possible pairs of destinations. Nevertheless, this does not have a very noticeable effect, because the maximum-flow problem is solved very quickly. Like in the previous case, this strategy does not exploit the structure of the graph induced by the violated $\{s,t\}$ pairs.
 
 \subsubsection{Add best $k$}
 
 This strategy is based on the assumption that adding $s-t$ pairs for which the maximum flow value is lower, and are thus 'more violated', are more likely to cause satisfaction of a bigger number of $s-t$ pairs that are violated but not yet included.
 
 \subsubsection{Add maximum matching}
+
+Another assumption that can be made is that addition of constraints for a given $\{s,t\}$ is likely to cause satisfaction of constraints associated with adjacent edges. Thus, we are looking for a (maximum) matching $M$ in the network $(D,\check{S},w)$, where the cost function $w:\check{S}\mapsto\mathbb{R}$ is obtained by solving 2MF for all possible pairs of destinations.
+
+\subsubsection{Heuristics}
+
 
 
 \section{Experimental Evaluation}

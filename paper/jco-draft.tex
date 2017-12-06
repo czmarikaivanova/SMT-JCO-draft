@@ -56,6 +56,9 @@ grestore
 \usepackage{enumerate}
 \usepackage{enumitem}
 \usepackage{mathtools}
+\usepackage[]{algorithm2e}
+\usepackage{color}
+
 \newcommand{\indentitem}{\setlength\itemindent{18pt}}
 \renewcommand{\labelitemi}{$\bullet$}
 \captionsetup{compatibility=false}
@@ -63,6 +66,9 @@ grestore
 \newtheorem{prop}{Proposition}
 \newtheorem{obs}{Observation}
 
+\newcommand\mycommfont[1]{\footnotesize\ttfamily\textcolor{blue}{#1}}
+\SetCommentSty{mycommfont}
+\SetKwRepeat{Do}{do}{while}
 %
 % \usepackage{mathptmx}      % use Times fonts if available on your TeX system
 %
@@ -851,16 +857,43 @@ The extended maximum flow formulation denoted as 2MF is constructed as follows:
  \label{con:maxf:flowNormal}  \sum\limits_{\substack{ j\in V_i}}\acute{f}_{ij}-\sum\limits_{\substack{j\in V_i }}\acute{f}_{ji}    & = 0   \quad \quad\quad \quad\quad \quad\quad 			   i\in V\setminus\{s,t\},\\	
  \label{con:maxf:fcapst}   \acute{f}_{ij} &\leq  x^{s}_{ij}\quad\quad\quad\quad    \quad\quad  (i,j)\in A,  \\ 	 
   \label{con:maxf:fcapts}   \grave{f}_{ij} &\leq  x^{t}_{ij}\quad\quad\quad\quad\quad\quad      (i,j)\in A,  \\ 	
-  \label{con:maxf:fsym}   \acute{f}_{ij} &=  \grave{f}_{ji},  \quad\quad \quad\quad   \quad~~(i,j)\in A, \\ 
   \label{con:maxf:sumFImpSumYst} \sum\limits_{i\in V_j, p_{ji}\geq p_{jk}}\acute{f}_{ji} & \leq \sum\limits_{i\in V_j, p_{ji}\geq p_{jk}}  y^{s}_{ji} ~~~~  j,k\in V,\\
-  \label{con:maxf:sumFImpSumYts} \sum\limits_{i\in V_j, p_{ji}\geq p_{jk}}\grave{f}_{ji} & \leq \sum\limits_{i\in V_j, p_{ji}\geq p_{jk}}  y^{t}_{ji} ~~~~  j,k\in V.\\
+  \label{con:maxf:sumFImpSumYts} \sum\limits_{i\in V_j, p_{ji}\geq p_{jk}}\grave{f}_{ji} & \leq \sum\limits_{i\in V_j, p_{ji}\geq p_{jk}}  y^{t}_{ji} ~~~~  j,k\in V,\\
+    \label{con:maxf:fsym}   \acute{f}_{ij} &=  \grave{f}_{ji}  \quad\quad \quad\quad   \quad~~(i,j)\in A, \\ 
 \label{con:maxf:fdim}	\acute{f}, \grave{f}&\in\left[0,1\right]^{A}. 
 \end{flalign}~
 \end{subequations}  
   
-Note that the right-hand sides in (\ref{con:maxf:fcapst})-(\ref{con:maxf:sumFImpSumYts}) are not variables. These values are input data obtained by solving a weaker model. The problem modelled by this formulation can be understood as a maximum 2-commodity network flow, where the source of the first commodity is the target of the second commodity and vice versa. Furthermore, the arcs have different capacities for the two commodities, even though it is required that the amount of one commodity passing through an arc $(i,j)$ equals the amount of the other commodity passing through $(j,i)$.
+Note that the right-hand sides in (\ref{con:maxf:fcapst})-(\ref{con:maxf:sumFImpSumYts}) are not variables. These values are input data obtained by solving weaker SMT-X1-VI. The problem modelled by this formulation can be understood as a maximum 2-commodity network flow, where the source of the first commodity is the target of the second commodity and vice versa. Furthermore, the arcs have different capacities for the two commodities, even though it is required that the amount of one commodity passing through an arc $(i,j)$ equals the amount of the other commodity passing through $(j,i)$.
  
-Based on these observations we build the constraint generation procedure. First, we solve LP(SMT-X1-VI) and obtain vectors $x$ and $y$. For each $(s,t)\in S$ we then check whether the constraints (\ref{con:mf:flowNormal})-(\ref{con:mf:fcap}) together with (\ref{con:vi:sumFImpSumY}) can already be satisfied by solving the extended maximum $s-t$ flow model. If $\text{mf}^{st}(G_{x^s})$=1, flow conservation constraints for $(s,t)$ are satisfied, otherwise  we remember $(s,t)$, and after processing all pairs, new flow constraints for violated paris selected according to a certain strategy are added to the original model. This augmented model is again solved and the $s-t$ pairs are again checked for satisfying maximum flow constraints. The whole process is repeated until there are no violated flow constraints for any $s-t$ pair. The algorithm \ref{alg:cg} describes the process formally.
+Based on these observations we build the constraint generation procedure. First, we solve LP(SMT-X1-VI) and obtain vectors $x$ and $y$. For each $(s,t)\in S$ we then check whether the relaxed constraints (\ref{con:mf:flowNormal})-(\ref{con:mf:fcap}) together with (\ref{con:vi:sumFImpSumY}) can already be satisfied by solving 2MF. In case the objective value is -2, the relaxed constraints are satisfied. Otherwise  we remember $(s,t)$, and after processing all pairs, relaxed constraints for some violated pairs selected according to a certain strategy are added to the original model. This augmented model is then solved again yielding new input values for the next iteration of the verification by 2MF.  The whole process is repeated until there are no violated flow constraints for any $(s,t)$ pair. Algorithm \ref{alg:cg} describes the process formally.
+
+\begin{algorithm}
+ \KwData{SMT instance}
+ \KwResult{Solution to LP(SMT-X2-VI)}
+ $Q\leftarrow\emptyset$\tcp*{Violated $\{s,t\}$ pairs}
+ $Q'\leftarrow\emptyset$\tcp*{$\{s,t\}$ pairs of which constraints are to be added to SMT-X1-VI}
+ \Do {$Q'\neq\emptyset$}{
+   \tcc{Solve the instance using SMT-X1-VI extended by constraints from 2MF associated with $\{s,t\}$ pairs in $Q'$}
+ $(x,y)\leftarrow\text{solve(SMT-X1-VI,$Q'$.)}$\;
+  \For{$\{s,t\}\in \check{S}$} {
+    \tcc{Find the objective value of the modified maximum flow problem instance for given commodity $(s,t)$ using the capacities obtained earlier.}
+  $v^*\leftarrow \text{solve(2MF,$s$,$t$,$x$,$y$)}$\;
+  \If{$v^* > -2$} {
+ $ Q\leftarrow Q\cup \{\{s,t\}\}$\;
+}
+ %$P= \cup_{a\in A} p_a$\;
+}
+\tcc{Select some subset of the violated $\{s,t\}$ pairs according to a give strategy. }
+$Q'\subseteq Q$
+}
+ $\text{assignToRandomTargets}(D_{available})$\;
+ ~\newline
+ \caption{Constraint generation}
+\label{alg:cg}
+\end{algorithm}
+
+\subsection{Strategies for constraint generation}
 
 There are various strategies how to determine which of the violated flow constraints will be added to the model. Here we describe those that we considered in the experimental part of this work.
 
@@ -883,6 +916,7 @@ This strategy is based on the assumption that adding $s-t$ pairs for which the m
 
 The practical part of this work focuses on comparison of the models presented in the previous section. As the main focus of this study is to determine tighter bounds, the conducted experiments are designed for this purpose. Instances of intended number of vertices are generated with random coordinates uniformly distributed between [0, 0] and [100, 100]. All computations were made on an Intel Core 2 Quad CPU at 2.83 GHz and 8 GB RAM. 
 %\subsection{Instance generation}
+\newpage
 \subsection{Comparison of the models}
 
 

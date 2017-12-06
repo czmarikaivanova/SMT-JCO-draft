@@ -1,3 +1,7 @@
 *.log
 *.aux
 .nfs*
+exp-cg-latest/
+exp-cg-latest/*
+./paper/*.log
+./paper/*.aux

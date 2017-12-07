@@ -835,12 +835,12 @@ Models SMT-X2 and SMT-F1-VI are equally strong.
 \newpage
 \section{Constraint Generation Scheme}
 \label{sec:cg}
-The stronger models SMT-X2-VI and SMT-F2-VI are too large and are therefore not very practical for solving even fairly small instances.  The main idea of how to tackle larger instances and thereby make these model more useful in practice is to solve a relaxation of the model where some of the constraints are omitted. It is assumed that the omitted constraints can often be satisfied in solution of the relaxed problem, without being explicitly included in the model. Relaxed constraints that are violated in the obtained solutions can be dynamically added to the model and the whole process is repeated, until some termination criteria are fulfilled. This approach is known as a \emph{constraint generation scheme}.
+The stronger models X2VI and F2VI are too large and are therefore not very practical for solving even fairly small instances.  The main idea of how to tackle larger instances and thereby make these model more useful in practice is to solve a relaxation of the model where some of the constraints are omitted. It is assumed that the omitted constraints can often be satisfied in a solution of the relaxed problem, without being explicitly included in the model. Relaxed constraints that are violated in the obtained solutions can be dynamically added to the model, and the whole process is repeated until some termination criteria are fulfilled, typically until there are no more violations. This approach is known as a \emph{constraint generation scheme}.
 
 \subsection{Implementation}%
-Experimental evaluation from the next section reveals that the valid inequality (\ref{con:vi:sumFImpSumY}) makes this model very strong, in fact it often gives an integral solution. To the contrary, the other valid inequalities rarely improve the LP bounds, and moreover increase the runtime. For these practical reasons, we consider the model SMT-X2+(\ref{con:vi:sumFImpSumY}) for constraint generation. Also note that the shortest runtime is given by solving LP(SMT-X1), and this runtime does not increase much by adding valid inequalities and solving LP(SMT-X1-VI). 
+Experimental evaluation from the next section reveals that the valid inequality (\ref{con:vi:sumFImpSumY}) makes X2VI very strong, in fact it's LP relaxation often gives an integral solution. To the contrary, the other valid inequalities (\ref{con:vi:f2dest}) and (\ref{con:vi:xImpSumF}) rarely improve the LP bounds, and moreover increase the runtime. For these practical reasons, we want to achieve a faster solution to LP(X2+(\ref{con:vi:sumFImpSumY})) using constraint generation. Also note that the shortest runtime is given by solving LP(X1), and this runtime does not increase much by adding valid inequalities and solving LP(X1VI). The aim is therefore to calculate LP(X1VI) and generate only some of the remaining constraints as needed.
 
-For each $(s,t)\in S$, constraints (\ref{con:mf:flowNormal})-(\ref{con:mf:fcap})form a classical maximum $s-t$ flow formulation which can be solved very quickly. Observe that according to (\ref{con:mf:fcap}), $x^s$ plays the role of a capacitiy vector in the network $G_{x^s}=(V,E,s,t,x^s)$ in which we want to find the size of maximum flow, and thereby verify whether the flow conservation constraints are already satisfied even though they are not explicitly included in the model. The formulation can also be extended by (\ref{con:vi:sumFImpSumY}). Unfortunately, including (\ref{con:mf:fsym}) is slightly problematic here, because it contains variables of different commodity, namely $(t,s)$. It is not possible to simply extend the model by these constraints, because a potential violation of flow conservation for the commodity $(t,s)$ would not be discovered, as there are no corresponding capacity constraints. Nevertheless, this can be easily resolved by combining the two commodities in one maximum flow formulation. Let us consider two distinct destinations $s,t\in D$ and define variables
+For each $(s,t)\in S$, constraints (\ref{con:mf:flowNormal})-(\ref{con:mf:fcap}) represent a classical maximum $st$-flow formulation which can be solved very quickly. Observe that according to (\ref{con:mf:fcap}), $x^s$ plays the role of a capacitiy vector in the network $G_{x^s}=(V,A,s,t,x^s)$ in which we want to find the size of maximum flow, and thereby verify whether the flow conservation constraints are already satisfied even though they are not explicitly included in the model. The formulation can also be extended by (\ref{con:vi:sumFImpSumY}). Unfortunately, including (\ref{con:mf:fsym}) is slightly problematic here, because it contains variables of different commodity, namely $(t,s)$. It is not possible to simply extend the model by these constraints, because a potential violation of flow conservation for the commodity $(t,s)$ would not be discovered, as there are no corresponding capacity constraints. Nevertheless, this can be easily resolved by combining the two commodities in one maximum flow formulation. Let us consider two distinct destinations $s,t\in D$ and define variables
 %\newline\newline
 \begin{itemize}
 \item[] $\acute{f}_{ij}\in \left[0,1\right]$ representing the amount of flow of commodity $(s,t)$ carried by arc $(i,j)\in A$, and\newline
@@ -863,21 +863,22 @@ The extended maximum flow formulation denoted as 2MF is constructed as follows:
 \label{con:maxf:fdim}	\acute{f}, \grave{f}&\in\left[0,1\right]^{A}. 
 \end{flalign}~
 \end{subequations}  
-  
-Note that the right-hand sides in (\ref{con:maxf:fcapst})-(\ref{con:maxf:sumFImpSumYts}) are not variables. These values are input data obtained by solving weaker SMT-X1-VI. The problem modelled by this formulation can be understood as a maximum 2-commodity network flow, where the source of the first commodity is the target of the second commodity and vice versa. Furthermore, the arcs have different capacities for the two commodities, even though it is required that the amount of one commodity passing through an arc $(i,j)$ equals the amount of the other commodity passing through $(j,i)$.
+
+This model comprises of constraints for $\{s,t\}\in \check{S}$ that are in X2+(\ref{con:vi:sumFImpSumY}) but not in X1VI.
+Note that the right-hand sides in (\ref{con:maxf:fcapst})-(\ref{con:maxf:sumFImpSumYts}) are not variables. These values are input data obtained by solving LP(X1VI). The problem modeled by this formulation can be understood as a maximum 2-commodity network flow, where the source of the first commodity is the target of the second commodity and vice versa. Furthermore, the arcs have different capacities for the two commodities, even though it is required that the amount of one commodity passing through an arc $(i,j)$ equals the amount of the other commodity passing through $(j,i)$.
  
-Based on these observations we build the constraint generation procedure. First, we solve LP(SMT-X1-VI) and obtain vectors $x$ and $y$. For each $(s,t)\in S$ we then check whether the relaxed constraints (\ref{con:mf:flowNormal})-(\ref{con:mf:fcap}) together with (\ref{con:vi:sumFImpSumY}) can already be satisfied by solving 2MF. In case the objective value is -2, the relaxed constraints are satisfied. Otherwise  we remember $(s,t)$, and after processing all pairs, relaxed constraints for some violated pairs selected according to a certain strategy are added to the original model. This augmented model is then solved again yielding new input values for the next iteration of the verification by 2MF.  The whole process is repeated until there are no violated flow constraints for any $(s,t)$ pair. Algorithm \ref{alg:cg} describes the process formally.
+Based on these observations we build the constraint generation procedure. First, we solve LP(X1VI) and obtain vectors $x$ and $y$. For each $\{s,t\}\in \check{S}$ we then check whether the relaxed constraints (\ref{con:mf:flowNormal})-(\ref{con:mf:fsym}) together with (\ref{con:vi:sumFImpSumY}) can already be satisfied by solving 2MF. In case the objective value is -2, the relaxed constraints are satisfied. Otherwise  we remember $\{s,t\}$, and after processing all pairs, relaxed constraints for some violated pairs selected according to a certain strategy are added to the original model. This augmented model is then solved again yielding new input values for the next iteration of the verification by 2MF.  The whole sequence is repeated until there are no violated flow constraints for any $\{s,t\}$ pair. Algorithm \ref{alg:cg} describes the process formally.
 
 \begin{algorithm}
  \KwData{SMT instance}
- \KwResult{Solution to LP(SMT-X2-VI)}
+ \KwResult{Solution to LP(X2+(\ref{con:vi:sumFImpSumY}))}
  $Q\leftarrow\emptyset$\tcp*{Violated $\{s,t\}$ pairs}
- $Q'\leftarrow\emptyset$\tcp*{$\{s,t\}$ pairs of which constraints are to be added to SMT-X1-VI}
+ $Q'\leftarrow\emptyset$\tcp*{$\{s,t\}$ pairs of which constraints are to be added to X1VI}
  \Do {$Q'\neq\emptyset$}{
-   \tcc{Solve the instance using SMT-X1-VI extended by constraints from 2MF associated with $\{s,t\}$ pairs in $Q'$}
- $(x,y)\leftarrow\text{solve(SMT-X1-VI,$Q'$.)}$\;
+   \tcc{Solve the instance using X1VI extended by constraints from 2MF associated with $\{s,t\}$ pairs in $Q'$}
+ $(x,y)\leftarrow\text{solve(X1VI,$Q'$)}$\;
   \For{$\{s,t\}\in \check{S}$} {
-    \tcc{Find the objective value of the modified maximum flow problem instance for given commodity $(s,t)$ using the capacities obtained earlier.}
+    \tcc{Find the objective value of the modified maximum flow problem instance for the given $\{s,t\}$ using the capacities obtained earlier.}
   $v^*\leftarrow \text{solve(2MF,$s$,$t$,$x$,$y$)}$\;
   \If{$v^* > -2$} {
  $ Q\leftarrow Q\cup \{\{s,t\}\}$\;
@@ -894,25 +895,25 @@ $Q'\subseteq Q$
 
 \subsection{Strategies for constraint generation}
 
-There are various strategies how to determine which of the violated flow constraints will be added to the model. Here we describe those that we considered in the experimental part of this work.
+There are various strategies for determining which of the violated flow constraints will be added to the original model. Here we describe those that we consider in the experimental part of this work.
 
-\subsubsection{Add all}
-One of the simplest and most basic strategies adds max-flow constraints of all the violated $s-t$ pairs. This ensures that in the next iteration is the last one, because all the constraints will be satisfied. This is turns out to be less practical, because after the first iteration, most of the $s-t$ pairs violate the flow constraints and we end up adding too many of them which usually leads to a very long runtime of the next iteration.
+\subsubsection{Add all violated}
+One of the most basic strategies adds constraints of all violated $\{s,t\}$ pairs. This approach is turns out to be less practical, because after the first iteration, most of the $\{s,t\}$ pairs violate the 2MF constraints and we end up adding too many of them which usually leads to a very long runtime of the next iteration.
 
 \subsubsection{Add first $k$}
 
-Another simple strategy adds first $k$ found $\{s,t\}$ pairs violating the flow constraints. An advantage of this strategy is that it is not necessary to run solve the maximum flow problem for all possible pairs of destinations. Nevertheless, this does not have a very noticeable effect, because the maximum-flow problem is solved very quickly. Like in the previous case, this strategy does not exploit the structure of the graph induced by the violated $\{s,t\}$ pairs.
+Another simple strategy adds first $k$ found $\{s,t\}$ pairs violating the flow constraints. Even though it is not necessary to solve 2MF for all possible pairs of destinations, the runtime does not decrease noticeably. Like in the previous case, this strategy does not exploit the structure of the graph induced by the violated $\{s,t\}$ pairs in any way.
 
 \subsubsection{Add best $k$}
 
-This strategy is based on the assumption that adding $s-t$ pairs for which the maximum flow value is lower, and are thus 'more violated', are more likely to cause satisfaction of a bigger number of $s-t$ pairs that are violated but not yet included.
+This strategy is based on the assumption that adding constraints for $\{s,t\}$ pairs for which the value of the maximum flow is lower, and are thus "more violated", are more likely to cause satisfaction of a larger number of constraints associated with other pairs of destinations that are violated but not yet included.
 
 \subsubsection{Add maximum matching}
 
-Another assumption that can be made is that addition of constraints for a given $\{s,t\}$ is likely to cause satisfaction of constraints associated with adjacent edges. Thus, we are looking for a (maximum) matching $M$ in the network $(D,\check{S},w)$, where the cost function $w:\check{S}\mapsto\mathbb{R}$ is obtained by solving 2MF for all possible pairs of destinations.
+Another assumption that can be made is that addition of constraints for a given $\{s,t\}$ is likely to cause satisfaction of constraints associated with adjacent edges. Thus, we are looking for a (maximum) matching $M$ in the weighted graph $(D,\check{S},w)$, where the weight function $w:\check{S}\mapsto\mathbb{R}$ can be defined in several ways. Probably the most intuitive is to obtain it by solving 2MF for all possible pairs of destinations. A different idea is to define $w(\{s,t\}) = p_{st}$, which is based on the assumption that a path between two distant nodes is long and addition of associated constraints may affect more edges.
 
-\subsubsection{Heuristics}
-
+%\subsubsection{Heuristics}
+\newpage
 
 
 \section{Experimental Evaluation}
